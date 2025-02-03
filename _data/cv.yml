@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Daniel Yamin
+    - name: Email
+      value: dhyamin@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Computational Neuroscience (GPA 98)
+      institution: Tel-Aviv University, Yuval Nir Lab
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Coursework: Machine learning (100), Processing (92), Computational models in brain research (100), Brain networks and graphs (100)"
+        - "System neuroscience (98), Arduino for Neuroscience (100), Bioinformatics in radiology (94)"
+
+    - title: BSc in Computer Science and Cognitive Science (GPA 92)
+      institution: The Open University of Israel
+      year: Graduation with Honors
       description:
-        - Description 1.
-        - Description 2.
+        - Accepted to the Outstanding Track, attended outstanding seminar with full scholarship
+        - "Key courses: Linear Algebra (98), Calculus 1 & 2 (100), Probability (88), Statistics (96)"
+        - "Advanced courses: Data structures and algorithms (90), Computation and complexity (84), Brain and cognition (98)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Software Engineer
+      institution: Chaos Labs
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Design and maintain highly scalable backend systems for real-time DeFi risk platforms
+        - Integrate data pipelines into decentralized systems
+        - Optimize infrastructure for low-latency and high availability
+        - Implement best practices in testing, security, and documentation
+
+    - title: Software Engineer 2
+      institution: Microsoft Azure Defender for IoT
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Built advanced security solutions for IoT & OT devices at global scale
+        - Developed Vulnerability Assessment system for matching CVEs to IoT devices
+        - Implemented detection algorithms for security alerts and recommendations
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: MSc Student & Data Scientist
+      institution: Tel-Aviv University & Sipple
+      year: 2021 - 2023
       description:
+        - Led research on eye movement analysis using advanced signal processing and ML
+        - Published research paper on novel no-report paradigm for memory studies
+        - Developed and managed data science pipeline for sound events detection
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Java Software Engineer
+      institution: Allot
+      year: 2014 - 2020
+      description:
+        - Developed DDoS Secure, a real-time network behavior anomaly detection system
+        - Refactored backend from Ruby to Java and redesigned database architecture
+        - Built REST API for BIRD routing demon using BGP protocol
+        - Implemented pattern extraction algorithms for evolving attack detection
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Founder & CTO
+      institution: Didact
+      year: 2012 - 2014
+      description:
+        - Developed online adaptive marketplace for video lessons
+        - Accepted into MindCet accelerator
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "Languages: Python, Java, C#, Golang, JavaScript"
+        - "Cloud & Infrastructure: AWS, Azure, MongoDB, PostgreSQL, Snowflake, Docker, Kubernetes"
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - "Libraries: pandas, scikit-learn"
+        - "Specialties: anomaly detection, signal processing, visualization"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Problem solving, building things, neurotechnology, kindle, coffee, beer, poker, cycling
+
+- title: Early Achievements
+  type: time_table
+  contents:
+    - title: RoboCup International
+      institution: Atlanta, Georgia
+      year: High School
+      description:
+        - Led team to national victory and represented Israel in international competition
+    - title: Young Researchers (Chetz project)
+      institution: Weizmann Institute of Science
+      description:
+        - Participated in advanced research program during high school
