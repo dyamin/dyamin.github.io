@@ -1304,3 +1304,22 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.paper-btn {
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #212529;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #e9ecef;
+    text-decoration: none;
+  }
+
+  i {
+    margin-right: 8px;
+  }
+}
