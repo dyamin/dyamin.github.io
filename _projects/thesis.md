@@ -3,7 +3,7 @@ layout: page
 title: Memory and Cognition Research
 description: MSc Thesis Project at Tel-Aviv University
 importance: 1
-category: research
+category: Research
 pdf: /assets/pdf/thesis.pdf # Add this line
 ---
 
