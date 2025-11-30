@@ -1,157 +1,180 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Daniel Yamin",
+    "label": "Senior Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dhyamin@gmail.com",
+    "url": "https://yamin.dev/",
+    "summary": "Senior Software Engineer with 10+ years of experience in software development and algorithms. Strong background in computational neuroscience and data science. Career spans startups to global corporations, with expertise in building scalable backend systems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Tel Aviv",
+      "countryCode": "IL",
+      "region": "Israel"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "daniel-yamin",
+        "url": "https://www.linkedin.com/in/daniel-yamin/"
+      },
+      {
+        "network": "GitHub",
+        "username": "dyamin",
+        "url": "https://github.com/dyamin"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Chaos Labs",
+      "position": "Senior Software Engineer",
+      "url": "https://chaoslabs.xyz/",
+      "startDate": "2024-01-01",
+      "summary": "Design and maintain highly scalable backend systems for real-time DeFi risk platforms. Integrate data pipelines into decentralized systems. Optimize infrastructure for low-latency and high availability.",
+      "highlights": [
+        "Real-time DeFi risk platforms",
+        "Distributed systems",
+        "High availability infrastructure"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Tel-Aviv University & Sipple",
+      "position": "MSc Student & Data Scientist",
+      "startDate": "2021-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Led research on eye movement analysis using advanced signal processing and ML. Published research paper on novel no-report paradigm for memory studies. Developed data science pipeline for sound events detection.",
+      "highlights": [
+        "Eye-tracking research",
+        "Machine learning",
+        "Published research"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "position": "Software Engineer 2",
+      "url": "https://microsoft.com/",
+      "startDate": "2020-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Azure Defender for IoT team. Built advanced security solutions for IoT & OT devices at global scale. Developed Vulnerability Assessment system for matching CVEs to IoT devices. Implemented detection algorithms for security alerts.",
+      "highlights": [
+        "IoT security",
+        "Vulnerability assessment",
+        "Global scale systems"
+      ]
+    },
+    {
+      "name": "Allot",
+      "position": "Java Software Engineer",
+      "url": "https://www.allot.com/",
+      "startDate": "2014-01-01",
+      "endDate": "2020-01-01",
+      "summary": "Developed DDoS Secure, a real-time network behavior anomaly detection system. Refactored backend from Ruby to Java and redesigned database architecture. Built REST API for BIRD routing demon using BGP protocol.",
+      "highlights": [
+        "DDoS detection",
+        "Network security",
+        "Backend architecture"
+      ]
+    },
+    {
+      "name": "Didact",
+      "position": "Founder & CTO",
+      "startDate": "2012-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Developed online adaptive marketplace for video lessons. Accepted into MindCet accelerator.",
+      "highlights": [
+        "EdTech startup",
+        "MindCet accelerator"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Tel-Aviv University",
+      "location": "Tel Aviv, Israel",
+      "area": "Computational Neuroscience",
+      "studyType": "MSc",
+      "startDate": "2021-01-01",
+      "endDate": "2023-01-01",
+      "score": "98",
+      "courses": [
+        "Machine Learning",
+        "Computational Models in Brain Research",
+        "Brain Networks and Graphs",
+        "System Neuroscience",
+        "Arduino for Neuroscience"
+      ]
+    },
+    {
+      "institution": "The Open University of Israel",
+      "location": "Israel",
+      "area": "Computer Science and Cognitive Science",
+      "studyType": "BSc",
+      "score": "92",
+      "courses": [
+        "Linear Algebra",
+        "Calculus",
+        "Data Structures and Algorithms",
+        "Computation and Complexity",
+        "Brain and Cognition"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "RoboCup International Representative",
+      "date": "2008-01-01",
+      "awarder": "RoboCup Federation",
+      "summary": "Led team to national victory and represented Israel in international RoboCup competition in Atlanta, Georgia."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Young Researchers Program",
+      "awarder": "Weizmann Institute of Science",
+      "summary": "Participated in Chetz project - advanced research program during high school."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "C#",
+        "Golang",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "MongoDB",
+        "PostgreSQL",
+        "Snowflake"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "pandas",
+        "scikit-learn",
+        "Anomaly Detection",
+        "Signal Processing",
+        "Data Visualization"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hebrew",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +186,35 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Technology",
+      "icon": "fa-solid fa-microchip",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Neurotechnology",
+        "DeFi",
+        "Distributed Systems"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Hobbies",
+      "icon": "fa-solid fa-heart",
+      "keywords": [
+        "Problem Solving",
+        "Cycling",
+        "Poker",
+        "Reading"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "MEGA - Memory Episode Gaze Anticipation",
+      "summary": "Research project introducing a novel methodology using eye-tracking technology to measure memory retrieval without verbal responses. Analyzes anticipatory gaze patterns to index episodic memory traces.",
+      "highlights": [
+        "Eye-tracking research",
+        "Machine learning classification",
+        "Published methodology"
+      ],
+      "url": "https://github.com/dyamin/MEGA"
     }
   ]
 }
