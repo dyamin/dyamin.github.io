@@ -107,8 +107,8 @@
       "location": "Tel Aviv, Israel",
       "area": "Computational Neuroscience",
       "studyType": "MSc",
-      "startDate": "2021-01-01",
-      "endDate": "2024-01-01",
+      "startDate": "2021-10-01",
+      "endDate": "2024-02-01",
       "score": "98",
       "courses": [
         "Machine Learning",
@@ -123,6 +123,8 @@
       "location": "Israel",
       "area": "Computer Science and Cognitive Science",
       "studyType": "BSc",
+      "startDate": "2013-01-01",
+      "endDate": "2016-01-01",
       "score": "92",
       "courses": [
         "Linear Algebra",
