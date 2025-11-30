@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Daniel Yamin",
-    "label": "Senior Software Engineer",
+    "label": "Senior Algorithmic Developer & Data Scientist",
     "image": "",
     "email": "dhyamin@gmail.com",
     "url": "https://yamin.dev/",
-    "summary": "Senior Software Engineer with 10+ years of experience in software development and algorithms. Strong background in computational neuroscience and data science. Career spans startups to global corporations, with expertise in building scalable backend systems.",
+    "summary": "Senior Software Engineer with 10+ years of experience in software development, algorithms, and data science. Strong background in computational neuroscience. Career spans startups to global corporations, with expertise in building scalable systems and ML pipelines.",
     "location": {
       "city": "Tel Aviv",
       "countryCode": "IL",
@@ -26,23 +26,37 @@
   },
   "work": [
     {
-      "name": "Chaos Labs",
-      "position": "Senior Software Engineer",
-      "url": "https://chaoslabs.xyz/",
-      "startDate": "2024-01-01",
-      "summary": "Design and maintain highly scalable backend systems for real-time DeFi risk platforms. Integrate data pipelines into decentralized systems. Optimize infrastructure for low-latency and high availability.",
+      "name": "Franklin by QIAGEN",
+      "position": "Senior Algorithmic Developer & Data Scientist",
+      "url": "https://franklin.genoox.com/",
+      "startDate": "2025-02-01",
+      "summary": "Developing algorithms and data science solutions for clinical genomics interpretation platform.",
       "highlights": [
-        "Real-time DeFi risk platforms",
-        "Distributed systems",
-        "High availability infrastructure"
+        "Clinical genomics",
+        "Algorithm development",
+        "Data science"
       ]
     },
     {
-      "name": "Tel-Aviv University & Sipple",
-      "position": "MSc Student & Data Scientist",
-      "startDate": "2021-01-01",
-      "endDate": "2023-01-01",
-      "summary": "Led research on eye movement analysis using advanced signal processing and ML. Published research paper on novel no-report paradigm for memory studies. Developed data science pipeline for sound events detection.",
+      "name": "Chaos Labs",
+      "position": "Senior Software Engineer",
+      "url": "https://chaoslabs.xyz/",
+      "startDate": "2024-02-01",
+      "endDate": "2025-02-01",
+      "summary": "Built scalable backend systems for real-time DeFi risk platforms. Developed decentralized systems with low-latency output, enabling protocols like Aave, Uniswap, and Osmosis to incorporate dynamic risk-reducing data in smart contracts.",
+      "highlights": [
+        "DeFi risk platforms",
+        "Distributed systems",
+        "Web3 infrastructure"
+      ]
+    },
+    {
+      "name": "Sagol School of Neuroscience, Tel Aviv University",
+      "position": "Computational Neuroscience Researcher",
+      "url": "https://yuvalnirlab.com/",
+      "startDate": "2021-10-01",
+      "endDate": "2024-02-01",
+      "summary": "Led research on eye movement analysis using advanced signal processing, statistics, and machine learning. Developed novel no-report paradigm for studying memory and cognition. Published research featured on Israeli national news.",
       "highlights": [
         "Eye-tracking research",
         "Machine learning",
@@ -51,11 +65,11 @@
     },
     {
       "name": "Microsoft",
-      "position": "Software Engineer 2",
+      "position": "Software Engineer II",
       "url": "https://microsoft.com/",
-      "startDate": "2020-01-01",
+      "startDate": "2020-02-01",
       "endDate": "2022-01-01",
-      "summary": "Azure Defender for IoT team. Built advanced security solutions for IoT & OT devices at global scale. Developed Vulnerability Assessment system for matching CVEs to IoT devices. Implemented detection algorithms for security alerts.",
+      "summary": "Azure Defender for IoT team. Built advanced security solutions for IoT & OT devices at global scale. Designed and developed Vulnerability Assessment tool matching CVEs to IoT devices using sophisticated algorithms.",
       "highlights": [
         "IoT security",
         "Vulnerability assessment",
@@ -64,26 +78,26 @@
     },
     {
       "name": "Allot",
-      "position": "Java Software Engineer",
+      "position": "Software & Algorithm Engineer",
       "url": "https://www.allot.com/",
-      "startDate": "2014-01-01",
-      "endDate": "2020-01-01",
-      "summary": "Developed DDoS Secure, a real-time network behavior anomaly detection system. Refactored backend from Ruby to Java and redesigned database architecture. Built REST API for BIRD routing demon using BGP protocol.",
+      "startDate": "2014-11-01",
+      "endDate": "2020-03-01",
+      "summary": "Developed DDoS Secure, a real-time network behavior anomaly detection (NBAD) and mitigation system. Strong focus on algorithmic thinking with adherence to OOP and SOLID principles.",
       "highlights": [
         "DDoS detection",
         "Network security",
-        "Backend architecture"
+        "Algorithm design"
       ]
     },
     {
-      "name": "Didact",
-      "position": "Founder & CTO",
-      "startDate": "2012-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Developed online adaptive marketplace for video lessons. Accepted into MindCet accelerator.",
+      "name": "Didact (MindCET Accelerator)",
+      "position": "Founder",
+      "startDate": "2013-01-01",
+      "endDate": "2014-12-01",
+      "summary": "Built innovative online marketplace for video lessons. Participated in MindCET accelerator - EdTech innovation center developing groundbreaking educational technology.",
       "highlights": [
         "EdTech startup",
-        "MindCet accelerator"
+        "MindCET accelerator"
       ]
     }
   ],
@@ -94,7 +108,7 @@
       "area": "Computational Neuroscience",
       "studyType": "MSc",
       "startDate": "2021-01-01",
-      "endDate": "2023-01-01",
+      "endDate": "2024-01-01",
       "score": "98",
       "courses": [
         "Machine Learning",
@@ -121,8 +135,12 @@
   ],
   "awards": [
     {
+      "title": "First Prize in Allot Hackathon",
+      "awarder": "Allot",
+      "summary": "Won first place in company-wide hackathon."
+    },
+    {
       "title": "RoboCup International Representative",
-      "date": "2008-01-01",
       "awarder": "RoboCup Federation",
       "summary": "Led team to national victory and represented Israel in international RoboCup competition in Atlanta, Georgia."
     },
@@ -141,8 +159,8 @@
         "Python",
         "Java",
         "C#",
-        "Golang",
-        "JavaScript"
+        "Go",
+        "TypeScript"
       ]
     },
     {
@@ -160,14 +178,14 @@
       ]
     },
     {
-      "name": "Machine Learning",
+      "name": "Data Science & ML",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "pandas",
+        "PyTorch",
         "scikit-learn",
-        "Anomaly Detection",
         "Signal Processing",
+        "Anomaly Detection",
         "Data Visualization"
       ]
     }
@@ -190,7 +208,7 @@
       "icon": "fa-solid fa-microchip",
       "keywords": [
         "Neurotechnology",
-        "DeFi",
+        "Genomics",
         "Distributed Systems"
       ]
     },
@@ -208,7 +226,7 @@
   "projects": [
     {
       "name": "MEGA - Memory Episode Gaze Anticipation",
-      "summary": "Research project introducing a novel methodology using eye-tracking technology to measure memory retrieval without verbal responses. Analyzes anticipatory gaze patterns to index episodic memory traces.",
+      "summary": "Research project introducing a novel methodology using eye-tracking technology to measure memory retrieval without verbal responses. Analyzes anticipatory gaze patterns to index episodic memory traces. Featured on Israeli national news.",
       "highlights": [
         "Eye-tracking research",
         "Machine learning classification",

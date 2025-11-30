@@ -11,7 +11,7 @@
   contents:
     - title: MSc in Computational Neuroscience (GPA 98)
       institution: Tel-Aviv University, Yuval Nir Lab
-      year: 2021-2023
+      year: 2021-2024
       description:
         - "Coursework: Machine learning (100), Processing (92), Computational models in brain research (100), Brain networks and graphs (100)"
         - "System neuroscience (98), Arduino for Neuroscience (100), Bioinformatics in radiology (94)"
@@ -27,58 +27,62 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Algorithmic Developer & Data Scientist
+      institution: Franklin by QIAGEN
+      year: 2025 - Present
+      description:
+        - Developing algorithms and data science solutions for clinical genomics interpretation platform
+
     - title: Senior Software Engineer
       institution: Chaos Labs
-      year: 2024 - Present
+      year: 2024 - 2025
       description:
-        - Design and maintain highly scalable backend systems for real-time DeFi risk platforms
-        - Integrate data pipelines into decentralized systems
-        - Optimize infrastructure for low-latency and high availability
-        - Implement best practices in testing, security, and documentation
+        - Built scalable backend systems for real-time DeFi risk platforms
+        - Developed decentralized systems enabling protocols like Aave, Uniswap, and Osmosis to incorporate dynamic risk-reducing data
+        - Optimized infrastructure for low-latency and high availability
 
-    - title: Software Engineer 2
+    - title: Computational Neuroscience Researcher
+      institution: Sagol School of Neuroscience, Tel Aviv University
+      year: 2021 - 2024
+      description:
+        - Led research on eye movement analysis using advanced signal processing and ML
+        - Developed novel no-report paradigm for studying memory and cognition
+        - Published research featured on Israeli national news (Channel 13)
+
+    - title: Software Engineer II
       institution: Microsoft Azure Defender for IoT
       year: 2020 - 2022
       description:
         - Built advanced security solutions for IoT & OT devices at global scale
-        - Developed Vulnerability Assessment system for matching CVEs to IoT devices
+        - Designed and developed Vulnerability Assessment tool matching CVEs to IoT devices
         - Implemented detection algorithms for security alerts and recommendations
 
-    - title: MSc Student & Data Scientist
-      institution: Tel-Aviv University & Sipple
-      year: 2021 - 2023
-      description:
-        - Led research on eye movement analysis using advanced signal processing and ML
-        - Published research paper on novel no-report paradigm for memory studies
-        - Developed and managed data science pipeline for sound events detection
-
-    - title: Java Software Engineer
+    - title: Software & Algorithm Engineer
       institution: Allot
       year: 2014 - 2020
       description:
-        - Developed DDoS Secure, a real-time network behavior anomaly detection system
-        - Refactored backend from Ruby to Java and redesigned database architecture
-        - Built REST API for BIRD routing demon using BGP protocol
-        - Implemented pattern extraction algorithms for evolving attack detection
+        - Developed DDoS Secure, a real-time network behavior anomaly detection (NBAD) system
+        - Strong algorithmic thinking with adherence to OOP and SOLID principles
+        - Won first prize in Allot Hackathon
 
-    - title: Founder & CTO
-      institution: Didact
-      year: 2012 - 2014
+    - title: Founder
+      institution: Didact (MindCET Accelerator)
+      year: 2013 - 2014
       description:
-        - Developed online adaptive marketplace for video lessons
-        - Accepted into MindCet accelerator
+        - Built innovative online marketplace for video lessons
+        - Participated in MindCET accelerator - EdTech innovation center
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming
       items:
-        - "Languages: Python, Java, C#, Golang, JavaScript"
+        - "Languages: Python, Java, C#, Go, TypeScript"
         - "Cloud & Infrastructure: AWS, Azure, MongoDB, PostgreSQL, Snowflake, Docker, Kubernetes"
-    - title: Machine Learning
+    - title: Data Science & ML
       items:
-        - "Libraries: pandas, scikit-learn"
-        - "Specialties: anomaly detection, signal processing, visualization"
+        - "Libraries: PyTorch, scikit-learn, pandas"
+        - "Specialties: anomaly detection, signal processing, data visualization"
 
 - title: Other Interests
   type: list
