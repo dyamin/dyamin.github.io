@@ -15,6 +15,7 @@
       description:
         - "Coursework: Machine learning (100), Processing (92), Computational models in brain research (100), Brain networks and graphs (100)"
         - "System neuroscience (98), Arduino for Neuroscience (100), Bioinformatics in radiology (94)"
+        - 'Research featured on <a href="https://13tv.co.il/item/news/domestic/health/research/">Channel 13 News</a>'
 
     - title: BSc in Computer Science and Cognitive Science (GPA 92)
       institution: The Open University of Israel
@@ -47,7 +48,7 @@
       description:
         - Led research on eye movement analysis using advanced signal processing and ML
         - Developed novel no-report paradigm for studying memory and cognition
-        - Published research featured on Israeli national news (Channel 13)
+        - 'Published research featured on <a href="https://13tv.co.il/item/news/domestic/health/research/">Channel 13 News</a>'
 
     - title: Software Engineer II
       institution: Microsoft Azure Defender for IoT
