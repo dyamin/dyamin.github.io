@@ -5,9 +5,9 @@ repo_description_lines_max: 2
 
 github_repos:
   - dyamin/MEGA
-  - dyamin/MEGA-Experiment
   - dyamin/llm-marketing-analysis
+  - dyamin/go-okx
+  - dyamin/DevWebsite
+  - dyamin/MEGA-Experiment
   - dyamin/SoccerStatsAnalyzer
-  - dyamin/dyamin.github.io
   - dyamin/HeadlineSummarizer
-  - amir-the-h/okex
