@@ -72,3 +72,5 @@ I maintain several open-source projects including the **MEGA** research implemen
 ---
 
 ## Let's Connect
+
+<a href="https://www.linkedin.com/in/daniel-yamin/" class="btn btn-sm btn-outline-primary" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
