@@ -30,9 +30,9 @@ nav_order: 6
       Radio interview discussing our MEGA research on measuring memory through anticipatory eye gaze patterns.
     </p>
     <div class="btn-group" role="group">
-      <a href="https://lnkd.in/dAkm9qcp" class="btn btn-outline-primary" target="_blank">Kan Website</a>
-      <a href="https://lnkd.in/de-CuxyV" class="btn btn-outline-success" target="_blank">Spotify</a>
-      <a href="https://lnkd.in/dNXQexky" class="btn btn-outline-secondary" target="_blank">Apple Podcasts</a>
+      <a href="https://www.kan.org.il/content/kan/podcasts/p-8270/961482/" class="btn btn-outline-primary" target="_blank">Kan Website</a>
+      <a href="https://open.spotify.com/episode/50c00GBiYnSHTR316EbJe3" class="btn btn-outline-success" target="_blank">Spotify</a>
+      <a href="https://podcasts.apple.com/us/podcast/%D7%90%D7%A0%D7%99-%D7%A8%D7%95%D7%90%D7%94-%D7%9C%D7%9A-%D7%91%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D/id1245658140?i=1000732493887" class="btn btn-outline-secondary" target="_blank">Apple Podcasts</a>
     </div>
   </div>
 </div>
