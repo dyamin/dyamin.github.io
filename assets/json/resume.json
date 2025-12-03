@@ -31,11 +31,7 @@
       "url": "https://franklin.genoox.com/",
       "startDate": "2025-02-01",
       "summary": "Developing algorithms and data science solutions for clinical genomics interpretation platform.",
-      "highlights": [
-        "Clinical genomics",
-        "Algorithm development",
-        "Data science"
-      ]
+      "highlights": ["Clinical genomics", "Algorithm development", "Data science"]
     },
     {
       "name": "Chaos Labs",
@@ -44,11 +40,7 @@
       "startDate": "2024-02-01",
       "endDate": "2025-02-01",
       "summary": "Built scalable backend systems for real-time DeFi risk platforms. Developed decentralized systems with low-latency output, enabling protocols like Aave, Uniswap, and Osmosis to incorporate dynamic risk-reducing data in smart contracts.",
-      "highlights": [
-        "DeFi risk platforms",
-        "Distributed systems",
-        "Web3 infrastructure"
-      ]
+      "highlights": ["DeFi risk platforms", "Distributed systems", "Web3 infrastructure"]
     },
     {
       "name": "Sagol School of Neuroscience, Tel Aviv University",
@@ -57,11 +49,7 @@
       "startDate": "2021-10-01",
       "endDate": "2024-02-01",
       "summary": "Led research on eye movement analysis using advanced signal processing, statistics, and machine learning. Developed novel no-report paradigm for studying memory and cognition. Published research featured on Israeli national news.",
-      "highlights": [
-        "Eye-tracking research",
-        "Machine learning",
-        "Published research"
-      ]
+      "highlights": ["Eye-tracking research", "Machine learning", "Published research"]
     },
     {
       "name": "Microsoft",
@@ -70,11 +58,7 @@
       "startDate": "2020-02-01",
       "endDate": "2022-01-01",
       "summary": "Azure Defender for IoT team. Built advanced security solutions for IoT & OT devices at global scale. Designed and developed Vulnerability Assessment tool matching CVEs to IoT devices using sophisticated algorithms.",
-      "highlights": [
-        "IoT security",
-        "Vulnerability assessment",
-        "Global scale systems"
-      ]
+      "highlights": ["IoT security", "Vulnerability assessment", "Global scale systems"]
     },
     {
       "name": "Allot",
@@ -83,11 +67,7 @@
       "startDate": "2014-11-01",
       "endDate": "2020-03-01",
       "summary": "Developed DDoS Secure, a real-time network behavior anomaly detection (NBAD) and mitigation system. Strong focus on algorithmic thinking with adherence to OOP and SOLID principles.",
-      "highlights": [
-        "DDoS detection",
-        "Network security",
-        "Algorithm design"
-      ]
+      "highlights": ["DDoS detection", "Network security", "Algorithm design"]
     },
     {
       "name": "Didact (MindCET Accelerator)",
@@ -95,10 +75,7 @@
       "startDate": "2013-01-01",
       "endDate": "2014-12-01",
       "summary": "Built innovative online marketplace for video lessons. Participated in MindCET accelerator - EdTech innovation center developing groundbreaking educational technology.",
-      "highlights": [
-        "EdTech startup",
-        "MindCET accelerator"
-      ]
+      "highlights": ["EdTech startup", "MindCET accelerator"]
     }
   ],
   "education": [
@@ -126,13 +103,7 @@
       "startDate": "2013-01-01",
       "endDate": "2016-01-01",
       "score": "92",
-      "courses": [
-        "Linear Algebra",
-        "Calculus",
-        "Data Structures and Algorithms",
-        "Computation and Complexity",
-        "Brain and Cognition"
-      ]
+      "courses": ["Linear Algebra", "Calculus", "Data Structures and Algorithms", "Computation and Complexity", "Brain and Cognition"]
     }
   ],
   "awards": [
@@ -157,39 +128,19 @@
       "name": "Programming Languages",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Java",
-        "C#",
-        "Go",
-        "TypeScript"
-      ]
+      "keywords": ["Python", "Java", "C#", "Go", "TypeScript"]
     },
     {
       "name": "Cloud & Infrastructure",
       "level": "Advanced",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "AWS",
-        "Azure",
-        "Docker",
-        "Kubernetes",
-        "MongoDB",
-        "PostgreSQL",
-        "Snowflake"
-      ]
+      "keywords": ["AWS", "Azure", "Docker", "Kubernetes", "MongoDB", "PostgreSQL", "Snowflake"]
     },
     {
       "name": "Data Science & ML",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "scikit-learn",
-        "Signal Processing",
-        "Anomaly Detection",
-        "Data Visualization"
-      ]
+      "keywords": ["PyTorch", "scikit-learn", "Signal Processing", "Anomaly Detection", "Data Visualization"]
     }
   ],
   "languages": [
@@ -208,32 +159,19 @@
     {
       "name": "Technology",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Neurotechnology",
-        "Genomics",
-        "Distributed Systems"
-      ]
+      "keywords": ["Neurotechnology", "Genomics", "Distributed Systems"]
     },
     {
       "name": "Hobbies",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-        "Problem Solving",
-        "Cycling",
-        "Poker",
-        "Reading"
-      ]
+      "keywords": ["Problem Solving", "Cycling", "Poker", "Reading"]
     }
   ],
   "projects": [
     {
       "name": "MEGA - Memory Episode Gaze Anticipation",
       "summary": "Research project introducing a novel methodology using eye-tracking technology to measure memory retrieval without verbal responses. Analyzes anticipatory gaze patterns to index episodic memory traces. Featured on Israeli national news.",
-      "highlights": [
-        "Eye-tracking research",
-        "Machine learning classification",
-        "Published methodology"
-      ],
+      "highlights": ["Eye-tracking research", "Machine learning classification", "Published methodology"],
       "url": "https://github.com/dyamin/MEGA"
     }
   ]

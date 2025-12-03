@@ -26,7 +26,7 @@ Human memory is typically studied by direct questioning, and the recollection of
 
 ## Published Research
 
-This research has been published in *Communications Psychology* (Nature Portfolio):
+This research has been published in _Communications Psychology_ (Nature Portfolio):
 
 [Anticipatory eye gaze as a marker of memory](https://www.nature.com/articles/s44271-025-00305-7)
 
