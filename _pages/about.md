@@ -25,9 +25,9 @@ I'm a **Senior Software Engineer** with 10+ years building scalable systems, and
 <div class="col-md-6">
 <h4><i class="fas fa-code"></i> Software Engineering</h4>
 
-Currently at **Franklin by QIAGEN**, developing algorithms for clinical genomics. Previously built DeFi risk platforms at Chaos Labs, IoT security at Microsoft Azure, and real-time anomaly detection at Allot.
+Currently at <strong>Franklin by QIAGEN</strong>, developing algorithms for clinical genomics. Previously built DeFi risk platforms at Chaos Labs, IoT security at Microsoft Azure, and real-time anomaly detection at Allot.
 
-**Stack:** Python, Go, TypeScript, AWS, Azure, Docker, Kubernetes
+<strong>Stack:</strong> Python, Go, TypeScript, AWS, Azure, Docker, Kubernetes
 
 <a href="/cv/" class="btn btn-sm btn-outline-primary mt-2">View Full CV →</a>
 </div>
@@ -35,7 +35,7 @@ Currently at **Franklin by QIAGEN**, developing algorithms for clinical genomics
 <div class="col-md-6">
 <h4><i class="fas fa-brain"></i> Research</h4>
 
-My MSc research at **Tel Aviv University** (Yuval Nir Lab) developed a novel method to measure memory through eye movements — no verbal reports needed. Published in *Nature Communications Psychology*.
+My MSc research at <strong>Tel Aviv University</strong> (Yuval Nir Lab) developed a novel method to measure memory through eye movements — no verbal reports needed. Published in <em>Nature Communications Psychology</em>.
 
 <a href="/publications/" class="btn btn-sm btn-outline-primary mt-2">See Publications →</a>
 </div>
