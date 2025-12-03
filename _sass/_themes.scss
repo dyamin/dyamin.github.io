@@ -62,6 +62,12 @@
   .repo-img-dark {
     display: none;
   }
+  .repo-fallback-light {
+    /* Will be shown via JS onerror */
+  }
+  .repo-fallback-dark {
+    display: none !important;
+  }
 
   #back-to-top {
     color: var(--global-back-to-top-text-color);
@@ -116,6 +122,12 @@ html[data-theme="dark"] {
   }
   .repo-img-dark {
     display: block;
+  }
+  .repo-fallback-light {
+    display: none !important;
+  }
+  .repo-fallback-dark {
+    /* Will be shown via JS onerror */
   }
 }
 
