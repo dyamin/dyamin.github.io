@@ -56,33 +56,50 @@ body.sticky-bottom-footer {
 * Repository Fallback Cards
 *****************************************************************************/
 
-.repo-fallback {
+.repo-card-link {
+  text-decoration: none;
+  display: block;
+}
+
+.repo-card {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   min-height: 120px;
-  padding: 20px;
+  padding: 24px 20px;
   border-radius: 6px;
   border: 1px solid var(--global-divider-color);
   background-color: var(--global-card-bg-color);
-  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
 
-  .repo-fallback-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
+  &:hover {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
   }
+}
 
-  .repo-fallback-name {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--global-theme-color);
-    word-break: break-word;
-  }
+.repo-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
 
-  .repo-fallback-owner {
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
-    margin-top: 5px;
-  }
+.repo-icon {
+  color: var(--global-text-color-light);
+  flex-shrink: 0;
+}
+
+.repo-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  word-break: break-word;
+}
+
+.repo-owner {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
 }
