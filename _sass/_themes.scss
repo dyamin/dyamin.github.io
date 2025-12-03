@@ -56,19 +56,6 @@
     display: none;
   }
 
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
-  .repo-fallback-light {
-    /* Will be shown via JS onerror */
-  }
-  .repo-fallback-dark {
-    display: none !important;
-  }
-
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -117,18 +104,6 @@ html[data-theme="dark"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
-  .repo-fallback-light {
-    display: none !important;
-  }
-  .repo-fallback-dark {
-    /* Will be shown via JS onerror */
-  }
 }
 
 html[data-theme-setting="dark"] {
