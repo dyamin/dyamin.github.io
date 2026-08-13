@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Some of the projects I have worked on.
+description: AI systems, production engineering, and published research — what I have built and where.
 nav: true
-nav_order: 3
-display_categories: ["Research"]
+nav_order: 2
+display_categories: ["AI & Machine Learning", "Research", "Engineering"]
 horizontal: false
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: A collection of my open source projects and contributions.
+title: Repositories
+description: Open-source work — the MEGA research pipeline, its experiment suite, and this site.
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 {% if site.data.repositories.github_users %}
@@ -35,7 +35,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## Featured Projects
+## GitHub Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}

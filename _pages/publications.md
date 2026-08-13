@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: publications and preprints
+title: Publications
+description: Peer-reviewed research on measuring human memory from eye movements.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->

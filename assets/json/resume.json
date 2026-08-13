@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Daniel Yamin",
-    "label": "Senior Algorithmic Developer & Data Scientist",
+    "label": "Senior AI Engineer & Data Scientist | Always Building",
     "image": "",
     "email": "dhyamin@gmail.com",
     "url": "https://yamin.dev/",
-    "summary": "Senior Software Engineer with 10+ years of experience in software development, algorithms, and data science. Strong background in computational neuroscience. Career spans startups to global corporations, with expertise in building scalable systems and ML pipelines.",
+    "summary": "AI engineer and data scientist with 10+ years of experience shipping production systems at startups and global companies. I lead LLM-powered applications and agentic workflows end-to-end — from opportunity to prototype to evaluation to production — on top of a decade of algorithm engineering and an MSc in computational neuroscience (published in Nature Communications Psychology).",
     "location": {
       "city": "Tel Aviv",
       "countryCode": "IL",
@@ -21,59 +21,66 @@
         "network": "GitHub",
         "username": "dyamin",
         "url": "https://github.com/dyamin"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Daniel Yamin",
+        "url": "https://scholar.google.com/citations?user=RnTYp-oAAAAJ"
       }
     ]
   },
   "work": [
     {
       "name": "Franklin by QIAGEN",
-      "position": "Senior Algorithmic Developer & Data Scientist",
+      "position": "Expert Data Scientist",
       "url": "https://franklin.genoox.com/",
-      "startDate": "2025-02-01",
-      "summary": "Developing algorithms and data science solutions for clinical genomics interpretation platform.",
+      "startDate": "2025-01-01",
+      "summary": "Joined Genoox (acquired by QIAGEN during my tenure) to build algorithmic solutions for complex genomic and clinical data. My role expanded into leading AI initiatives across the organization — I'm the go-to technical resource for AI development, LLM-based applications, and agentic workflows.",
       "highlights": [
-        "Clinical genomics",
-        "Algorithm development",
-        "Data science"
+        "Lead LLM-powered applications and agentic workflows end-to-end: identifying opportunities, prototyping, evaluation, integration, and production deployment",
+        "Design, implement, and productionize machine-learning systems for complex genomic and clinical datasets",
+        "Build NLP and text-mining solutions that transform scientific literature and unstructured content into structured, actionable insights",
+        "Advise teams across the organization on AI solution design, technical feasibility, technology selection, and development best practices",
+        "Optimize data-intensive algorithms with parallel and distributed computing",
+        "Lead cross-functional projects with high standards for accuracy, testing, reproducibility, and production reliability"
       ]
     },
     {
       "name": "Chaos Labs",
       "position": "Senior Software Engineer",
       "url": "https://chaoslabs.xyz/",
-      "startDate": "2024-02-01",
+      "startDate": "2024-01-01",
       "endDate": "2025-02-01",
-      "summary": "Built scalable backend systems for real-time DeFi risk platforms. Developed decentralized systems with low-latency output, enabling protocols like Aave, Uniswap, and Osmosis to incorporate dynamic risk-reducing data in smart contracts.",
+      "summary": "Chaos Labs builds automated economic security for crypto protocols — world-class risk simulations trusted by leading DeFi protocols such as Aave, Uniswap, and Osmosis to protect billions of dollars in digital assets.",
       "highlights": [
-        "DeFi risk platforms",
-        "Distributed systems",
-        "Web3 infrastructure"
+        "Built scalable, low-latency backend systems for the real-time DeFi risk platform",
+        "Developed decentralized systems that let protocols incorporate dynamic, risk-reducing data directly into their smart contracts in real time"
       ]
     },
     {
       "name": "Sagol School of Neuroscience, Tel Aviv University",
-      "position": "Computational Neuroscience Researcher",
-      "url": "https://yuvalnirlab.com/",
+      "position": "Computational Neuroscience Researcher (Yuval Nir Lab)",
+      "url": "https://www.yuvalnirlab.com/",
       "startDate": "2021-10-01",
       "endDate": "2024-02-01",
-      "summary": "Led research on eye movement analysis using advanced signal processing, statistics, and machine learning. Developed novel no-report paradigm for studying memory and cognition. Published research featured on Israeli national news.",
+      "summary": "Used data-science tools to study human memory. My thesis developed MEGA (Memory Episode Gaze Anticipation) — a no-report paradigm that quantifies episodic memory from anticipatory eye gaze using signal processing, statistics, and machine learning.",
       "highlights": [
-        "Eye-tracking research",
-        "Machine learning",
-        "Published research"
+        "Co-authored 'Anticipatory eye gaze as a marker of memory', published in Communications Psychology (Nature Portfolio, 2025)",
+        "Machine-learning classification identifies memory for an event from single-trial gaze features",
+        "Research covered by Channel 13 News, The Times of Israel, and Neuroscience News",
+        "In parallel, led the data-science pipeline for a sound-event-detection product at Sipple — model selection, training, and end-to-end AWS workflow"
       ]
     },
     {
       "name": "Microsoft",
-      "position": "Software Engineer II",
-      "url": "https://microsoft.com/",
-      "startDate": "2020-02-01",
-      "endDate": "2022-01-01",
-      "summary": "Azure Defender for IoT team. Built advanced security solutions for IoT & OT devices at global scale. Designed and developed Vulnerability Assessment tool matching CVEs to IoT devices using sophisticated algorithms.",
+      "position": "Senior Software Engineer, Azure Defender for IoT",
+      "url": "https://azure.microsoft.com/",
+      "startDate": "2020-01-01",
+      "endDate": "2022-03-01",
+      "summary": "Built advanced security solutions protecting IoT and OT devices at global scale on Azure, detecting alerts and generating recommendations from raw IoT telemetry across millions of devices.",
       "highlights": [
-        "IoT security",
-        "Vulnerability assessment",
-        "Global scale systems"
+        "Designed and developed the Vulnerability Assessment feature — an algorithm matching CVEs to IoT devices at scale",
+        "Built detection algorithms for security alerts and recommendations on global-scale IoT data"
       ]
     },
     {
@@ -82,87 +89,103 @@
       "url": "https://www.allot.com/",
       "startDate": "2014-11-01",
       "endDate": "2020-03-01",
-      "summary": "Developed DDoS Secure, a real-time network behavior anomaly detection (NBAD) and mitigation system. Strong focus on algorithmic thinking with adherence to OOP and SOLID principles.",
+      "summary": "Core engineer on DDoS Secure, a real-time network behavior anomaly detection (NBAD) and mitigation system, joining via a startup tiger team acquired by Allot.",
       "highlights": [
-        "DDoS detection",
-        "Network security",
-        "Algorithm design"
+        "Re-architected the product backend from Ruby to Java, including database (PostgreSQL) and parts of the GUI",
+        "Built a REST API for the BIRD routing daemon to mitigate malicious traffic during DDoS attacks via BGP",
+        "Extended pattern-extraction algorithms to handle evolving attacks; applied multiple linear regression to predict traffic baselines under attack",
+        "Won first prize in the Allot hackathon"
       ]
     },
     {
-      "name": "Didact (MindCET Accelerator)",
+      "name": "Didact (MindCET EdTech Innovation Center)",
       "position": "Founder",
       "startDate": "2013-01-01",
       "endDate": "2014-12-01",
-      "summary": "Built innovative online marketplace for video lessons. Participated in MindCET accelerator - EdTech innovation center developing groundbreaking educational technology.",
-      "highlights": [
-        "EdTech startup",
-        "MindCET accelerator"
-      ]
+      "summary": "Founded an online marketplace for video lessons and took it through the MindCET EdTech accelerator."
     }
   ],
   "education": [
     {
-      "institution": "Tel-Aviv University",
-      "location": "Tel Aviv, Israel",
-      "area": "Computational Neuroscience",
+      "institution": "Tel Aviv University",
+      "url": "https://www.tau.ac.il/",
+      "area": "Computational Neuroscience (Sagol School of Neuroscience, Yuval Nir Lab)",
       "studyType": "MSc",
       "startDate": "2021-10-01",
       "endDate": "2024-02-01",
-      "score": "98",
+      "score": "GPA 98",
       "courses": [
-        "Machine Learning",
-        "Computational Models in Brain Research",
-        "Brain Networks and Graphs",
-        "System Neuroscience",
-        "Arduino for Neuroscience"
+        "Machine Learning (100)",
+        "Computational Models in Brain Research (100)",
+        "Brain Networks and Graphs (100)",
+        "Systems Neuroscience (98)",
+        "Bioinformatics in Radiology (94)"
       ]
     },
     {
       "institution": "The Open University of Israel",
-      "location": "Israel",
+      "url": "https://www.openu.ac.il/",
       "area": "Computer Science and Cognitive Science",
       "studyType": "BSc",
       "startDate": "2013-01-01",
-      "endDate": "2016-01-01",
-      "score": "92",
+      "endDate": "2016-12-01",
+      "score": "GPA 92, graduated with honors; accepted to the Outstanding Students track with a full scholarship",
       "courses": [
-        "Linear Algebra",
-        "Calculus",
-        "Data Structures and Algorithms",
-        "Computation and Complexity",
-        "Brain and Cognition"
+        "Data Structures and Algorithms (90)",
+        "Linear Algebra (98)",
+        "Probability (88) & Statistics (96)",
+        "Brain and Cognition (98)"
       ]
     }
   ],
-  "awards": [
+  "publications": [
     {
-      "title": "First Prize in Allot Hackathon",
-      "awarder": "Allot",
-      "summary": "Won first place in company-wide hackathon."
-    },
-    {
-      "title": "RoboCup International Representative",
-      "awarder": "RoboCup Federation",
-      "summary": "Led team to national victory and represented Israel in international RoboCup competition in Atlanta, Georgia."
-    },
-    {
-      "title": "Young Researchers Program",
-      "awarder": "Weizmann Institute of Science",
-      "summary": "Participated in Chetz project - advanced research program during high school."
+      "name": "Anticipatory eye gaze as a marker of memory",
+      "publisher": "Communications Psychology (Nature Portfolio)",
+      "releaseDate": "2025-08-01",
+      "url": "https://www.nature.com/articles/s44271-025-00305-7",
+      "summary": "The MEGA paradigm shows that monitoring anticipatory gaze with eye tracking can quantify memory retrieval without verbal report; machine-learning classification identifies memory from single-trial gaze features. Covered by Channel 13 News, The Times of Israel, and Neuroscience News."
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "GenAI & Agentic Systems",
+      "level": "Expert",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "LLM application design",
+        "Agentic workflows & tool use",
+        "RAG & retrieval pipelines",
+        "Evaluation & observability",
+        "Prompt engineering",
+        "NLP & scientific-literature text mining"
+      ]
+    },
+    {
+      "name": "Machine Learning & Data Science",
+      "level": "Expert",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "PyTorch",
+        "scikit-learn",
+        "pandas",
+        "Signal processing",
+        "Anomaly detection",
+        "Statistical modeling",
+        "Eye-tracking analytics"
+      ]
+    },
+    {
+      "name": "Languages & Backend",
       "level": "Expert",
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
+        "Go",
+        "TypeScript",
         "Java",
         "C#",
-        "Go",
-        "TypeScript"
+        "REST & event-driven APIs"
       ]
     },
     {
@@ -174,67 +197,48 @@
         "Azure",
         "Docker",
         "Kubernetes",
-        "MongoDB",
         "PostgreSQL",
-        "Snowflake"
+        "MongoDB",
+        "Snowflake",
+        "Parallel & distributed computing"
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "First prize, Allot Hackathon",
+      "awarder": "Allot"
     },
     {
-      "name": "Data Science & ML",
-      "level": "Advanced",
-      "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "scikit-learn",
-        "Signal Processing",
-        "Anomaly Detection",
-        "Data Visualization"
-      ]
+      "title": "Outstanding Students track, full scholarship",
+      "awarder": "The Open University of Israel"
+    },
+    {
+      "title": "RoboCup International — led team to national victory, represented Israel in Atlanta",
+      "awarder": "RoboCup (high school)"
     }
   ],
   "languages": [
     {
-      "language": "Hebrew",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English",
+      "fluency": "Native or bilingual"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Hebrew",
+      "fluency": "Native or bilingual"
     }
   ],
   "interests": [
     {
-      "name": "Technology",
-      "icon": "fa-solid fa-microchip",
+      "name": "Outside of work",
       "keywords": [
+        "Building things",
         "Neurotechnology",
-        "Genomics",
-        "Distributed Systems"
-      ]
-    },
-    {
-      "name": "Hobbies",
-      "icon": "fa-solid fa-heart",
-      "keywords": [
-        "Problem Solving",
-        "Cycling",
         "Poker",
-        "Reading"
+        "CrossFit",
+        "Cycling",
+        "Coffee"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "MEGA - Memory Episode Gaze Anticipation",
-      "summary": "Research project introducing a novel methodology using eye-tracking technology to measure memory retrieval without verbal responses. Analyzes anticipatory gaze patterns to index episodic memory traces. Featured on Israeli national news.",
-      "highlights": [
-        "Eye-tracking research",
-        "Machine learning classification",
-        "Published methodology"
-      ],
-      "url": "https://github.com/dyamin/MEGA"
     }
   ]
 }
