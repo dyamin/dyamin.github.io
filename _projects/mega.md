@@ -2,6 +2,7 @@
 layout: page
 title: MEGA — reading memory from the eyes
 description: A no-report paradigm that quantifies episodic memory from anticipatory eye gaze, published in Nature Communications Psychology.
+img: /assets/img/publication_preview/mega-gaze.png
 importance: 1
 category: Research
 related_publications: false

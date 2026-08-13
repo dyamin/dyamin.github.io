@@ -2,6 +2,7 @@
 layout: page
 title: Real-time DeFi risk platform
 description: Low-latency risk systems at Chaos Labs, trusted by protocols like Aave, Uniswap, and Osmosis to protect billions in assets.
+img: /assets/img/projects/proj-defi.png
 importance: 2
 category: Engineering
 related_publications: false

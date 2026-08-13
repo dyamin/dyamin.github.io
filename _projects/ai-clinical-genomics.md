@@ -2,6 +2,7 @@
 layout: page
 title: LLM & agentic systems for clinical genomics
 description: Leading AI development at Franklin by QIAGEN — LLM applications, agentic workflows, and literature-scale NLP for genomic medicine.
+img: /assets/img/projects/proj-genomics.png
 importance: 1
 category: AI & Machine Learning
 related_publications: false

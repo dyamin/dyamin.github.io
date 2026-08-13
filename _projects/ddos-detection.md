@@ -2,6 +2,7 @@
 layout: page
 title: Real-time DDoS anomaly detection
 description: Six years on DDoS Secure at Allot — network behavior anomaly detection and mitigation on live traffic.
+img: /assets/img/projects/proj-ddos.png
 importance: 4
 category: Engineering
 related_publications: false

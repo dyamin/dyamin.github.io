@@ -1,31 +1,38 @@
 ---
 version: 1
 overrides:
+  _includes/metadata.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/metadata.liquid
+    upstream_sha256: 1446b2572062335b5fc44e16b6090ff197e03b3503009660f79a6a39cd383584
+    local_sha256: 4b68698f557c99d3f81fa0312822a4908c6f15ff13402fff83bc3c96f488b8a0
+    acknowledged_at: '2026-08-13'
   _layouts/cv.liquid:
     owner: al_folio_core
     gem_version: 1.0.15
     upstream_path: _layouts/cv.liquid
     upstream_sha256: c586e8051e785b492a0f4452c4e06798d47a8c363d29487e48de4fcd9851700e
     local_sha256: 134f9fd6e8584977c9817976009da69793b29341161a7b1337f5bdf224fb01ed
-    acknowledged_at: "2026-08-13"
+    acknowledged_at: '2026-08-13'
   _sass/_components.scss:
     owner: al_folio_core
     gem_version: 1.0.15
     upstream_path: _sass/_components.scss
-    upstream_sha256: "088665537c10a0f1b996891a3a24de9e8052e0a6b01efef637288781dce8d453"
+    upstream_sha256: '088665537c10a0f1b996891a3a24de9e8052e0a6b01efef637288781dce8d453'
     local_sha256: bedd18c9dab13413c8cc542b87f552519a9d7bf42ec54e66c16e3a81adc87782
-    acknowledged_at: "2026-08-13"
+    acknowledged_at: '2026-08-13'
   _sass/_themes.scss:
     owner: al_folio_core
     gem_version: 1.0.15
     upstream_path: _sass/_themes.scss
     upstream_sha256: b581e43dcfbf21c14f388e2b585474c886fad62f6b5a0444f7832e7f69745f1f
     local_sha256: 0e38577848b8a26d1e82042ff9cc916b2b5314d5a6b997d41c1738511c2408ca
-    acknowledged_at: "2026-08-13"
+    acknowledged_at: '2026-08-13'
   _sass/_variables.scss:
     owner: al_folio_core
     gem_version: 1.0.15
     upstream_path: _sass/_variables.scss
     upstream_sha256: 8a6b3e6a2dfcda6c7973dc7b19872f02d66d6c78bac677fc2dff0e272b3ebc84
     local_sha256: b482cdc334bbe30308dd62f8f75a98fc700b962f539f8e462f3d489bce83c91b
-    acknowledged_at: "2026-08-13"
+    acknowledged_at: '2026-08-13'
