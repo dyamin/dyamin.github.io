@@ -11,7 +11,7 @@ related_publications: false
 
 ## The idea
 
-When people re-watch a movie clip, their gaze starts drifting toward the location of a salient event *seconds before it appears* — but only if they remember it. That anticipatory gaze is a readable memory trace:
+When people re-watch a movie clip, their gaze starts drifting toward the location of a salient event _seconds before it appears_ — but only if they remember it. That anticipatory gaze is a readable memory trace:
 
 > "Even when subjects said they didn't remember, their gaze direction showed they did. This means that sometimes people remember, but can't say that they remember."
 
@@ -25,7 +25,7 @@ Memory assessment today mostly requires verbal reports. MEGA opens the door to m
 
 ## Outputs
 
-- **Paper:** [Anticipatory eye gaze as a marker of memory](https://www.nature.com/articles/s44271-025-00305-7), *Communications Psychology* (Nature Portfolio), 2025 · [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2024.08.14.607869v2)
+- **Paper:** [Anticipatory eye gaze as a marker of memory](https://www.nature.com/articles/s44271-025-00305-7), _Communications Psychology_ (Nature Portfolio), 2025 · [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2024.08.14.607869v2)
 - **Code:** [dyamin/MEGA](https://github.com/dyamin/MEGA) (analysis pipeline, MIT) · [dyamin/MEGA-Experiment](https://github.com/dyamin/MEGA-Experiment) (experiment presentation suite)
 - **Thesis:** <a href="/assets/pdf/thesis.pdf" target="_blank">Download PDF</a>
 - **Coverage:** Channel 13 News, The Times of Israel, Neuroscience News — see [Talks & media](/media/)

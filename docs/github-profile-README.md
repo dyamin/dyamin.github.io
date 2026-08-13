@@ -14,14 +14,14 @@ after a decade of production engineering at Microsoft, Chaos Labs, and Allot.
 
 🧠 I'm also a published memory researcher — my MSc work (**MEGA**) measures human memory from
 anticipatory eye gaze, no verbal report needed:
-[*Anticipatory eye gaze as a marker of memory*, Communications Psychology (Nature Portfolio, 2025)](https://www.nature.com/articles/s44271-025-00305-7).
+[_Anticipatory eye gaze as a marker of memory_, Communications Psychology (Nature Portfolio, 2025)](https://www.nature.com/articles/s44271-025-00305-7).
 
 - 🌐 **Site / blog:** [yamin.dev](https://yamin.dev)
 - 📄 **CV:** [yamin.dev/cv](https://yamin.dev/cv/)
 - 💼 **LinkedIn:** [linkedin.com/in/daniel-yamin](https://www.linkedin.com/in/daniel-yamin/)
 - 📚 **Scholar:** [scholar.google.com/citations?user=RnTYp-oAAAAJ](https://scholar.google.com/citations?user=RnTYp-oAAAAJ)
 
-*I studied how brains remember. Now I build systems that give AI agents memory, tools, and judgment.*
+_I studied how brains remember. Now I build systems that give AI agents memory, tools, and judgment._
 ```
 
 ---

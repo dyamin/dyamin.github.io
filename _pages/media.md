@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Our research on measuring memory through anticipatory eye gaze — published in *Communications Psychology* (Nature Portfolio, August 2025) — drew coverage across TV, radio, and international science press.
+Our research on measuring memory through anticipatory eye gaze — published in _Communications Psychology_ (Nature Portfolio, August 2025) — drew coverage across TV, radio, and international science press.
 
 ## TV & radio
 

@@ -1,6 +1,6 @@
 # yamin.dev
 
-Personal website of **Daniel Yamin** — Senior AI Engineer & Data Scientist (LLMs & agentic systems), and co-author of the MEGA memory research published in *Communications Psychology* (Nature Portfolio).
+Personal website of **Daniel Yamin** — Senior AI Engineer & Data Scientist (LLMs & agentic systems), and co-author of the MEGA memory research published in _Communications Psychology_ (Nature Portfolio).
 
 **Live site:** [yamin.dev](https://yamin.dev/)
 

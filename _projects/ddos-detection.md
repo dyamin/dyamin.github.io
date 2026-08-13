@@ -13,7 +13,7 @@ At **Allot** (2014–2020) — which I joined via a startup tiger team that Allo
 
 - **Full re-architecture** — designed and rebuilt the product backend from Ruby to Java, including the PostgreSQL layer and parts of the GUI, while the product stayed live.
 - **BGP-based mitigation** — built a REST API for the [BIRD](https://bird.network.cz/) routing daemon so the system could divert malicious traffic during an attack using BGP.
-- **Adaptive detection algorithms** — extended pattern-extraction algorithms to track evolving attacks, and applied multiple linear regression to predict a signal's clean baseline *while under attack*, so long-duration floods couldn't poison the detector's notion of "normal".
+- **Adaptive detection algorithms** — extended pattern-extraction algorithms to track evolving attacks, and applied multiple linear regression to predict a signal's clean baseline _while under attack_, so long-duration floods couldn't poison the detector's notion of "normal".
 - Won **first prize** in the Allot hackathon along the way.
 
 This was my algorithmic apprenticeship: statistics and detection theory applied to hostile, high-volume, real-time data — long before "anomaly detection" had an ML-platform aisle.

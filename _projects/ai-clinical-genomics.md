@@ -21,4 +21,4 @@ At [Franklin by QIAGEN](https://franklin.genoox.com/) (I joined Genoox in Januar
 
 Clinical genomics is an unforgiving environment for AI: the source material is dense scientific prose, the ontology is huge, and the cost of a hallucination is not a bad demo — it's a wrong call on a patient's variant. Building LLM systems that earn trust here means treating **evals as the product**: measurable accuracy against expert-curated ground truth, regression suites for prompts and models, and graceful degradation when the model is uncertain.
 
-*The specifics of what we ship are Franklin's story to tell — this page describes my role and the engineering approach.*
+_The specifics of what we ship are Franklin's story to tell — this page describes my role and the engineering approach._

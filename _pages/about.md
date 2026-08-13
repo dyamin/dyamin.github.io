@@ -28,7 +28,7 @@ latest_posts:
 
 I build **LLM-powered applications and agentic workflows** for clinical genomics at **[Franklin by QIAGEN](https://franklin.genoox.com/)**, where I'm the go-to technical resource for AI development across the organization.
 
-Before that I spent a decade shipping production systems — DeFi risk platforms at **Chaos Labs**, IoT security at **Microsoft Azure**, real-time network anomaly detection at **Allot** — and completed an MSc in **computational neuroscience** at Tel Aviv University, where I co-developed a way to measure human memory from eye movements alone, published in *Nature Communications Psychology*.
+Before that I spent a decade shipping production systems — DeFi risk platforms at **Chaos Labs**, IoT security at **Microsoft Azure**, real-time network anomaly detection at **Allot** — and completed an MSc in **computational neuroscience** at Tel Aviv University, where I co-developed a way to measure human memory from eye movements alone, published in _Nature Communications Psychology_.
 
 I studied how brains remember. Now I build systems that give AI agents memory, tools, and judgment.
 
@@ -63,7 +63,7 @@ I studied how brains remember. Now I build systems that give AI agents memory, t
 
 My research asked a strange question: **how do you detect a memory the person can't tell you about?** Our answer was to read it from the eyes — anticipatory gaze reveals a memory trace seconds before the remembered event appears on screen, even when people say they don't remember.
 
-Building agentic systems raises the engineering version of the same question: *what should an intelligent system remember, and how do you prove it remembered?* Memory, evaluation, and observability for AI agents aren't buzzwords to me — they're the problem I studied in the lab, now in production form.
+Building agentic systems raises the engineering version of the same question: _what should an intelligent system remember, and how do you prove it remembered?_ Memory, evaluation, and observability for AI agents aren't buzzwords to me — they're the problem I studied in the lab, now in production form.
 
 <div class="cta-row">
   <a class="cta-btn" href="/projects/">Projects</a>

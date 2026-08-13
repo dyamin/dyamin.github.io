@@ -130,12 +130,7 @@
       "startDate": "2013-01-01",
       "endDate": "2016-12-01",
       "score": "GPA 92, graduated with honors; accepted to the Outstanding Students track with a full scholarship",
-      "courses": [
-        "Data Structures and Algorithms (90)",
-        "Linear Algebra (98)",
-        "Probability (88) & Statistics (96)",
-        "Brain and Cognition (98)"
-      ]
+      "courses": ["Data Structures and Algorithms (90)", "Linear Algebra (98)", "Probability (88) & Statistics (96)", "Brain and Cognition (98)"]
     }
   ],
   "publications": [
@@ -165,43 +160,19 @@
       "name": "Machine Learning & Data Science",
       "level": "Expert",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "PyTorch",
-        "scikit-learn",
-        "pandas",
-        "Signal processing",
-        "Anomaly detection",
-        "Statistical modeling",
-        "Eye-tracking analytics"
-      ]
+      "keywords": ["PyTorch", "scikit-learn", "pandas", "Signal processing", "Anomaly detection", "Statistical modeling", "Eye-tracking analytics"]
     },
     {
       "name": "Languages & Backend",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Go",
-        "TypeScript",
-        "Java",
-        "C#",
-        "REST & event-driven APIs"
-      ]
+      "keywords": ["Python", "Go", "TypeScript", "Java", "C#", "REST & event-driven APIs"]
     },
     {
       "name": "Cloud & Infrastructure",
       "level": "Advanced",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "AWS",
-        "Azure",
-        "Docker",
-        "Kubernetes",
-        "PostgreSQL",
-        "MongoDB",
-        "Snowflake",
-        "Parallel & distributed computing"
-      ]
+      "keywords": ["AWS", "Azure", "Docker", "Kubernetes", "PostgreSQL", "MongoDB", "Snowflake", "Parallel & distributed computing"]
     }
   ],
   "awards": [
@@ -231,14 +202,7 @@
   "interests": [
     {
       "name": "Outside of work",
-      "keywords": [
-        "Building things",
-        "Neurotechnology",
-        "Poker",
-        "CrossFit",
-        "Cycling",
-        "Coffee"
-      ]
+      "keywords": ["Building things", "Neurotechnology", "Poker", "CrossFit", "Cycling", "Coffee"]
     }
   ]
 }
