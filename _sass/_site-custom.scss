@@ -245,3 +245,99 @@ h2.category {
     color: var(--global-theme-color);
   }
 }
+
+// --- "Make it amazing" package: proof strip, signature line, gaze divider, reveal ---
+
+.proof-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+  margin: 1.4rem 0 0.6rem;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.proof-tile {
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 0.6rem;
+  padding: 0.7rem 0.85rem 0.65rem;
+  background: var(--global-card-bg-color);
+
+  .proof-value {
+    display: block;
+    font-weight: 800;
+    font-size: 1.02rem;
+    letter-spacing: -0.01em;
+    color: var(--global-text-color);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .proof-label {
+    display: block;
+    font-size: 0.74rem;
+    line-height: 1.35;
+    margin-top: 0.15rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.signature-line {
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, var(--signature-grad-a, #4f46e5), var(--signature-grad-b, #7c3aed));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--global-theme-color); // fallback for browsers without background-clip: text
+  width: fit-content;
+}
+
+.gaze-divider {
+  margin: 1.7rem 0 0.3rem;
+
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  .gaze-caption {
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    fill: var(--global-text-color-light);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .gaze-dot {
+      display: none;
+    }
+  }
+}
+
+// Scroll reveal: hidden state only applies once JS has confirmed it will run
+.reveal-ready .reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.55s ease-out,
+    transform 0.55s ease-out;
+
+  &.in {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// Dark-mode hero glow behind the profile photo
+html[data-theme="dark"] .profile img {
+  box-shadow: 0 0 70px rgba(129, 140, 248, 0.28);
+}
+
+html:not([data-theme="dark"]) .profile img {
+  box-shadow: 0 10px 40px rgba(79, 70, 229, 0.12);
+}

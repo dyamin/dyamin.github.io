@@ -30,7 +30,7 @@ I build **LLM-powered applications and agentic workflows** for clinical genomics
 
 Before that I spent a decade shipping production systems — DeFi risk platforms at **Chaos Labs**, IoT security at **Microsoft Azure**, real-time network anomaly detection at **Allot** — and completed an MSc in **computational neuroscience** at Tel Aviv University, where I co-developed a way to measure human memory from eye movements alone, published in _Nature Communications Psychology_.
 
-I studied how brains remember. Now I build systems that give AI agents memory, tools, and judgment.
+<p class="signature-line">I studied how brains remember. Now I build systems that give AI agents memory, tools, and judgment.</p>
 
 <div class="cta-row">
   <a class="cta-btn cta-btn-primary" href="/cv/"><i class="fa-solid fa-file-lines"></i> View CV</a>
@@ -38,7 +38,46 @@ I studied how brains remember. Now I build systems that give AI agents memory, t
   <a class="cta-btn" href="https://www.linkedin.com/in/daniel-yamin/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
 </div>
 
----
+<div class="proof-strip">
+  <div class="proof-tile">
+    <span class="proof-value">LLMs &amp; agents</span>
+    <span class="proof-label">designed, evaluated &amp; shipped to production</span>
+  </div>
+  <div class="proof-tile">
+    <span class="proof-value">Org-wide AI lead</span>
+    <span class="proof-label">the go-to for AI at Franklin by QIAGEN</span>
+  </div>
+  <div class="proof-tile">
+    <span class="proof-value">10+ yrs</span>
+    <span class="proof-label">production systems — Microsoft, QIAGEN, Chaos Labs</span>
+  </div>
+  <div class="proof-tile">
+    <span class="proof-value">Nature Portfolio</span>
+    <span class="proof-label">published memory researcher — my edge for agent memory</span>
+  </div>
+</div>
+
+<div class="gaze-divider" aria-hidden="true">
+  <svg viewBox="0 0 1000 96" width="100%" preserveAspectRatio="xMidYMid meet" role="presentation" focusable="false">
+    <!-- the remembered event: gaze arrives before it appears -->
+    <path id="gazePath" d="M 78 64 C 260 54, 430 74, 570 52 S 830 26, 916 36" fill="none" stroke="none"/>
+    <path d="M 78 64 C 260 54, 430 74, 570 52 S 830 26, 916 36" fill="none" style="stroke: var(--global-theme-color)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 13" opacity="0.55"/>
+    <g style="stroke: var(--global-text-color-light)">
+      <ellipse cx="46" cy="64" rx="26" ry="16" fill="none" stroke-width="2.5"/>
+      <circle cx="52" cy="63" r="7" style="fill: var(--global-text-color-light)" stroke="none"/>
+    </g>
+    <rect x="884" y="14" width="64" height="44" rx="9" fill="none" style="stroke: var(--global-theme-color)" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
+    <circle cx="916" cy="36" r="6" style="fill: var(--global-theme-color)">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.72;0.8;0.96;1" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="gaze-dot" r="5.5" style="fill: var(--global-theme-color)">
+      <animateMotion dur="5.5s" repeatCount="indefinite" keyPoints="0;0.75;1;1" keyTimes="0;0.6;0.72;1" calcMode="spline" keySplines="0.4 0 0.6 1; 0.3 0 0.4 1; 0 0 1 1">
+        <mpath href="#gazePath"/>
+      </animateMotion>
+    </circle>
+    <text x="500" y="92" text-anchor="middle" class="gaze-caption">gaze arrives before the event — the memory science I now apply to AI agents</text>
+  </svg>
+</div>
 
 ## What I do
 
@@ -100,3 +139,29 @@ I'm always happy to hear about hard problems at the intersection of **AI, data, 
 <div class="cta-row">
   <a class="cta-btn cta-btn-primary" href="mailto:dhyamin@gmail.com"><i class="fa-solid fa-envelope"></i> dhyamin@gmail.com</a>
 </div>
+
+<script>
+  // Scroll-reveal (progressive enhancement; no-JS and reduced-motion users see everything immediately)
+  (function () {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var targets = document.querySelectorAll(".post article h2, .pillar-card, .xp-item, .proof-tile");
+    if (!targets.length || !("IntersectionObserver" in window)) return;
+    document.documentElement.classList.add("reveal-ready");
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    targets.forEach(function (t, i) {
+      t.classList.add("reveal");
+      t.style.transitionDelay = Math.min(i % 4, 3) * 70 + "ms";
+      io.observe(t);
+    });
+  })();
+</script>

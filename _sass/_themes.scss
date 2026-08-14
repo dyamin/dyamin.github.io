@@ -19,6 +19,8 @@
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-faded-heading-color: #898992; /* a11y: >3:1 large text */
+  --signature-grad-a: #4f46e5;
+  --signature-grad-b: #7c3aed;
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
@@ -90,6 +92,8 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{v.$grey-color-light};
   --global-divider-color: #424246;
   --global-faded-heading-color: #74747e; /* a11y: >3:1 large text on dark */
+  --signature-grad-a: #a5b4fc;
+  --signature-grad-b: #c4b5fd;
   --global-card-bg-color: #{v.$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
