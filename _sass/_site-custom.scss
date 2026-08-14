@@ -246,7 +246,7 @@ h2.category {
   }
 }
 
-// --- "Make it amazing" package: proof strip, signature line, gaze divider, reveal ---
+// --- Hero package: proof strip, signature line, scroll reveal ---
 
 .proof-strip {
   display: grid;
@@ -295,28 +295,6 @@ h2.category {
   -webkit-text-fill-color: transparent;
   color: var(--global-theme-color); // fallback for browsers without background-clip: text
   width: fit-content;
-}
-
-.gaze-divider {
-  margin: 1.7rem 0 0.3rem;
-
-  svg {
-    display: block;
-    max-width: 100%;
-  }
-
-  .gaze-caption {
-    font-size: 12.5px;
-    letter-spacing: 0.04em;
-    fill: var(--global-text-color-light);
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .gaze-dot {
-      display: none;
-    }
-  }
 }
 
 // Scroll reveal: hidden state only applies once JS has confirmed it will run

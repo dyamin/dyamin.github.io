@@ -57,27 +57,7 @@ Before that I spent a decade shipping production systems — DeFi risk platforms
   </div>
 </div>
 
-<div class="gaze-divider" aria-hidden="true">
-  <svg viewBox="0 0 1000 96" width="100%" preserveAspectRatio="xMidYMid meet" role="presentation" focusable="false">
-    <!-- the remembered event: gaze arrives before it appears -->
-    <path id="gazePath" d="M 78 64 C 260 54, 430 74, 570 52 S 830 26, 916 36" fill="none" stroke="none"/>
-    <path d="M 78 64 C 260 54, 430 74, 570 52 S 830 26, 916 36" fill="none" style="stroke: var(--global-theme-color)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 13" opacity="0.55"/>
-    <g style="stroke: var(--global-text-color-light)">
-      <ellipse cx="46" cy="64" rx="26" ry="16" fill="none" stroke-width="2.5"/>
-      <circle cx="52" cy="63" r="7" style="fill: var(--global-text-color-light)" stroke="none"/>
-    </g>
-    <rect x="884" y="14" width="64" height="44" rx="9" fill="none" style="stroke: var(--global-theme-color)" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
-    <circle cx="916" cy="36" r="6" style="fill: var(--global-theme-color)">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.72;0.8;0.96;1" dur="5.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle class="gaze-dot" r="5.5" style="fill: var(--global-theme-color)">
-      <animateMotion dur="5.5s" repeatCount="indefinite" keyPoints="0;0.75;1;1" keyTimes="0;0.6;0.72;1" calcMode="spline" keySplines="0.4 0 0.6 1; 0.3 0 0.4 1; 0 0 1 1">
-        <mpath href="#gazePath"/>
-      </animateMotion>
-    </circle>
-    <text x="500" y="92" text-anchor="middle" class="gaze-caption">gaze arrives before the event — the memory science I now apply to AI agents</text>
-  </svg>
-</div>
+---
 
 ## What I do
 
