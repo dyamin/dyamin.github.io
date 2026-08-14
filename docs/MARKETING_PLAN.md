@@ -38,6 +38,14 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 - Repo list curated to MEGA, MEGA-Experiment, dyamin.github.io (dropped the unmodified `go-okx` fork and 2-commit repos that undermined the "LLM tools" claim)
 - README rewritten (was the upstream theme README); X icon removed until the account is revived (see decisions)
 
+**Follow-up rounds (same day)**
+
+- CI aligned with personal-site reality: prettier now green; upstream theme-maintainer workflows (style contract, template integration tests, rendercv, star history, README screenshots, Docker, releases) removed; `AGENTS.md`/`CLAUDE.md` rewritten so future agent sessions inherit these decisions
+- Homepage news timeline with verified dates: paper published Aug 11 2025 (Crossref + PubMed PMID 40790348), QIAGEN acquisition of Genoox announced May 12 2025, bioRxiv preprint Aug 14 2024
+- Custom indigo artwork on all five project cards
+- Link shares upgraded to `summary_large_image` Twitter/X cards (one-line `_includes/metadata.liquid` override)
+- Live production verified end-to-end: canonicals, og.png, cv.pdf, sitemap, robots, webp variants, repo-stats cards, news, artwork
+
 ## Your action list (things only you can do)
 
 **This week (~2 hours total)**
