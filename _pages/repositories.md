@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: Open-source work — the MEGA research pipeline, its experiment suite, and this site.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 <div class="repo-static-grid">
@@ -25,9 +25,11 @@ nav_order: 6
   </a>
 </div>
 
----
-
-## Live stats from GitHub
+<!-- The widgets below come from third-party stats services; the whole section hides itself
+     if none of them load, so visitors never see a heading over blank space. -->
+<div id="gh-live-stats">
+  <hr />
+  <h2>Live stats from GitHub</h2>
 
 {% if site.data.repositories.github_users %}
 
@@ -37,9 +39,8 @@ nav_order: 6
   {% endfor %}
 </div>
 
----
-
-{% endif %}
+  <hr />
+  {% endif %}
 
 {% if site.data.repositories.github_repos %}
 
@@ -49,3 +50,31 @@ nav_order: 6
   {% endfor %}
 </div>
 {% endif %}
+
+</div>
+
+<script>
+  // Hide the live-stats section only when every widget image has confirmed failure.
+  (function () {
+    var section = document.getElementById("gh-live-stats");
+    if (!section) return;
+    function check() {
+      var imgs = Array.prototype.slice.call(section.querySelectorAll("img"));
+      if (!imgs.length) {
+        section.hidden = true;
+        return;
+      }
+      var allDead = imgs.every(function (img) {
+        return img.complete && img.naturalWidth === 0;
+      });
+      if (allDead) section.hidden = true;
+    }
+    if (document.readyState === "complete") {
+      setTimeout(check, 3000);
+    } else {
+      window.addEventListener("load", function () {
+        setTimeout(check, 3000);
+      });
+    }
+  })();
+</script>

@@ -3,7 +3,7 @@ layout: page
 title: IoT security at global scale
 description: Azure Defender for IoT at Microsoft — including the CVE-matching Vulnerability Assessment feature.
 img: /assets/img/projects/proj-iot.png
-importance: 3
+importance: 4
 category: Engineering
 related_publications: false
 ---

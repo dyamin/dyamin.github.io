@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Peer-reviewed research on measuring human memory from eye movements.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <!-- _pages/publications.md -->

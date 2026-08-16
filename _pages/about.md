@@ -38,6 +38,14 @@ Before that I spent a decade shipping production systems — DeFi risk platforms
   <a class="cta-btn" href="https://www.linkedin.com/in/daniel-yamin/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
 </div>
 
+<!-- The "Now" strip is the site's freshness signal: update the text + stamp every 4–6 weeks
+     (whenever something ships — see docs/MARKETING_PLAN.md). Keep it to one truthful sentence. -->
+<div class="now-strip">
+  <span class="now-label"><span class="now-dot" aria-hidden="true"></span>Now</span>
+  <span class="now-text">Building <strong>memprobe</strong>, an open eval harness that tests agent memory by behavior rather than self-report — and writing up what human-memory research teaches about agent memory.</span>
+  <span class="now-stamp">updated Aug 2026</span>
+</div>
+
 <div class="proof-strip">
   <div class="proof-tile">
     <span class="proof-value">LLMs &amp; agents</span>
@@ -114,7 +122,7 @@ The [MEGA research implementation](https://github.com/dyamin/MEGA) is open sourc
 
 ## Let's talk
 
-I'm always happy to hear about hard problems at the intersection of **AI, data, and product** — collaborations, speaking, or senior AI roles.
+I'm always happy to hear about hard problems at the intersection of **AI, data, and product** — collaborations, speaking invitations, or a problem you think I'd enjoy.
 
 <div class="cta-row">
   <a class="cta-btn cta-btn-primary" href="mailto:dhyamin@gmail.com"><i class="fa-solid fa-envelope"></i> dhyamin@gmail.com</a>

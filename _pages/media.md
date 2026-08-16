@@ -4,7 +4,7 @@ permalink: /media/
 title: Talks & Media
 description: Press, TV, and podcast coverage of the MEGA memory research.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 Our research on measuring memory through anticipatory eye gaze — published in _Communications Psychology_ (Nature Portfolio, August 2025) — drew coverage across TV, radio, and international science press.

@@ -46,6 +46,17 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 - Link shares upgraded to `summary_large_image` Twitter/X cards (one-line `_includes/metadata.liquid` override)
 - Live production verified end-to-end: canonicals, og.png, cv.pdf, sitemap, robots, webp variants, repo-stats cards, news, artwork
 
+**Polish round (Aug 16 2026) — "market without showing the need"**
+
+- **Availability language removed everywhere:** the about page's "…or senior AI roles" and the site-wide footer's "…or interesting roles" are gone. The site now markets via proof-of-work only; recruiters don't need an invitation, and current colleagues get no tell. This is a standing decision (see log).
+- Hero headline emphasized: the positioning line under the name is now large/semibold instead of the smallest text in the hero.
+- **"Now" strip added to the homepage hero** (pulsing dot + "Building memprobe… / writing …" + "updated Aug 2026" stamp) — the freshness signal that backs the "Always Building" claim. Update it every 4–6 weeks; the stamp is the point.
+- Projects page: single grid sorted by importance (genomics → MEGA → DeFi → IoT → DDoS); the three per-category rows looked sparse with one card alone per row. Re-categorize when each category has ≥2 entries (memprobe will help).
+- CV page: "Download CV (PDF)" now also docked at the top next to the title — recruiters no longer scroll two pages to find it.
+- Repositories page: the "Live stats from GitHub" section hides itself if none of the third-party widgets load (no more heading over blank space).
+- Homepage theme headings sentence-cased ("News", "Selected publications") to match the custom sections.
+- **Blog surfaces restored and staged:** `_pages/blog.md` is back with a publish checklist in its front matter; navbar slot 2 is reserved (`nav: false` until the first post ships); drafts now carry the same checklist pointer.
+
 ## Your action list (things only you can do)
 
 **This week (~2 hours total)**
@@ -70,12 +81,14 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 
 ## Standing decisions log
 
-| Decision                  | Choice                                                                  |
-| ------------------------- | ----------------------------------------------------------------------- |
-| Canonical public headline | "Senior AI Engineer & Data Scientist \| Always Building" (per LinkedIn) |
-| Formal role title in CV   | Expert Data Scientist, Franklin by QIAGEN                               |
-| CV data source            | `assets/json/resume.json` only (`_data/cv.yml` deleted)                 |
-| Accent / brand color      | Indigo (#4f46e5 light / #818cf8 dark)                                   |
-| X icon                    | Hidden until account is revived professionally                          |
-| Blog                      | Infrastructure ready; publish only human-reviewed posts                 |
-| llms.txt                  | Skipped deliberately — effort goes to schema + content instead          |
+| Decision                  | Choice                                                                      |
+| ------------------------- | --------------------------------------------------------------------------- |
+| Canonical public headline | "Senior AI Engineer & Data Scientist \| Always Building" (per LinkedIn)     |
+| Formal role title in CV   | Expert Data Scientist, Franklin by QIAGEN                                   |
+| CV data source            | `assets/json/resume.json` only (`_data/cv.yml` deleted)                     |
+| Accent / brand color      | Indigo (#4f46e5 light / #818cf8 dark)                                       |
+| X icon                    | Hidden until account is revived professionally                              |
+| Blog                      | Infrastructure ready; publish only human-reviewed posts                     |
+| llms.txt                  | Skipped deliberately — effort goes to schema + content instead              |
+| Availability language     | None, anywhere — no "roles", "open to", or hiring hints; proof-of-work only |
+| Freshness signal          | Homepage "Now" strip — update text + stamp every 4–6 weeks                  |

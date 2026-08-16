@@ -7,6 +7,8 @@ categories: [ai-engineering]
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename to publish.
 # Deliberately written from public facts about the role; add or remove specifics
 # according to what Franklin/QIAGEN is comfortable sharing.
+# After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
+# homepage latest_posts, news item). LinkedIn/HN copy: docs/DISTRIBUTION_KIT.md.
 ---
 
 **Draft for Daniel's review — edit voice and specifics before publishing.**

@@ -8,6 +8,7 @@
 - **CV single source of truth:** `assets/json/resume.json`. The `/cv/` page renders it (`cv_format: jsonresume`); regenerate `assets/pdf/cv.pdf` from the same data when it changes. There is no `_data/cv.yml` — do not reintroduce it.
 - **Local theme overrides are intentional** and tracked in `.al-folio-overrides.yml`: `_layouts/cv.liquid` (accessible CV download button), `_includes/metadata.liquid` (summary_large_image Twitter cards), `_sass/_variables.scss` + `_sass/_themes.scss` (indigo brand accent + contrast fixes), `_sass/_components.scss` (loads `_sass/_site-custom.scss`). After editing any of these, run `bundle exec al-folio upgrade overrides accept <path>`.
 - **Blog policy:** publish only human-reviewed posts. Drafts live in `_drafts/` and must be moved to `_posts/` by Daniel (or with his explicit approval), never auto-published.
+- **No availability language, ever:** the site must never say "roles", "open to work", "looking for", or any other job-seeking hint — in page copy, the footer `contact_note`, meta tags, or the CV. The strategy is to market via proof-of-work while never showing the need. Keep the homepage "Now" strip truthful and fresh (update its text + "updated <Month Year>" stamp when something ships).
 - **Never** re-add the al-folio demo content (Einstein pages, demo posts/books/teachings, `inspirehep_id: 1010907`, `scholar_userid: qc6CJjYAAAAJ` — those are the template's Albert Einstein IDs; Daniel's real Scholar ID is `RnTYp-oAAAAJ`).
 
 ## Validated local commands

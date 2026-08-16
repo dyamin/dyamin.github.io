@@ -6,6 +6,8 @@ tags: [llm, agents, memory, neuroscience]
 categories: [ai-engineering]
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename
 # (e.g. _posts/2026-09-01-brains-remember-agents-forget.md) to publish.
+# After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
+# homepage latest_posts, news item). LinkedIn/HN copy: docs/DISTRIBUTION_KIT.md.
 ---
 
 **Draft for Daniel's review — edit voice and specifics before publishing.**

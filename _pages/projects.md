@@ -4,8 +4,9 @@ title: Projects
 permalink: /projects/
 description: AI systems, production engineering, and published research — what I have built and where.
 nav: true
-nav_order: 2
-display_categories: ["AI & Machine Learning", "Research", "Engineering"]
+nav_order: 3
+# Single uncategorized grid (sorted by `importance`) — with five projects, per-category
+# rows looked sparse. Re-introduce display_categories once each category has ≥2 entries.
 horizontal: false
 ---
 

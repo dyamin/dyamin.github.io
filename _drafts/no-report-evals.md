@@ -6,6 +6,8 @@ tags: [llm, agents, memory, evals]
 categories: [ai-engineering]
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename to publish.
 # Companion piece to the "brains remember" essay; this one is the practical how-to.
+# After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
+# homepage latest_posts, news item). LinkedIn/HN copy: docs/DISTRIBUTION_KIT.md.
 ---
 
 **Draft for Daniel's review — edit voice, code, and examples before publishing.**
