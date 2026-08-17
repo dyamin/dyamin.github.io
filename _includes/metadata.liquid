@@ -236,22 +236,69 @@
     {% endcase %}
   {% endfor %}
 
+  {% comment %}
+    Entity graph for search + answer engines: a rich Person node (the identity anchor —
+    sameAs/jobTitle/knowsAbout live here to disambiguate vs. same-name researchers),
+    a site-level WebSite node, and a BlogPosting node for posts, all cross-referenced by @id.
+  {% endcomment %}
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "Person",
+          "@id": "{{ site.url }}{{ site.baseurl }}/#person",
+          "name": "{{ author_name }}",
+          "url": "{{ site.url }}{{ site.baseurl }}/",
+          "image": "{{ site.url }}{{ site.baseurl }}/assets/img/prof_pic.jpg",
+          "jobTitle": "Senior AI Engineer & Data Scientist",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Franklin by QIAGEN",
+            "url": "https://franklin.genoox.com/"
+          },
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Tel Aviv University" },
+            { "@type": "CollegeOrUniversity", "name": "The Open University of Israel" }
+          ],
+          "knowsAbout": [
+            "large language models",
+            "AI agents and agentic workflows",
+            "AI agent memory",
+            "LLM evaluation",
+            "retrieval-augmented generation",
+            "natural language processing",
+            "machine learning",
+            "clinical genomics",
+            "computational neuroscience",
+            "episodic memory",
+            "eye tracking"
+          ]{% if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks | jsonify }}
+          {%- endif %}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
+        {% if is_blog_post %}
+          {
+            "@type": "BlogPosting",
+            "headline": {{ page.title | jsonify }},
+            "description": {{ page.description | default: site.description | strip_newlines | strip | jsonify }},
+            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            "mainEntityOfPage": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            {% if page.date %}"datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
+            "author": { "@id": "{{ site.url }}{{ site.baseurl }}/#person" },
+            "publisher": { "@id": "{{ site.url }}{{ site.baseurl }}/#person" }
+          }
+        {% else %}
+          {
+            "@type": "WebSite",
+            "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+            "name": "{{ author_name }}",
+            "url": "{{ site.url }}{{ site.baseurl }}/",
+            "description": {{ page.description | default: site.description | strip_newlines | strip | jsonify }},
+            "publisher": { "@id": "{{ site.url }}{{ site.baseurl }}/#person" }
+          }
         {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+      ]
     }
   </script>
 {% endif %}

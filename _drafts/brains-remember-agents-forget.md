@@ -4,6 +4,7 @@ title: "I measured memories people couldn't report. Now I build memory for AI ag
 description: "What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems."
 tags: [llm, agents, memory, neuroscience]
 categories: [ai-engineering]
+og_image: /assets/img/og/brains-remember-agents-forget.png
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename
 # (e.g. _posts/2026-09-01-brains-remember-agents-forget.md) to publish.
 # After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,

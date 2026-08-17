@@ -4,6 +4,7 @@ title: "Lessons from shipping LLM agents where wrong answers matter"
 description: "What building LLM applications and agentic workflows for clinical genomics taught me about evals, trust, and knowing when not to use a model."
 tags: [llm, agents, evals, genomics]
 categories: [ai-engineering]
+og_image: /assets/img/og/llm-agents-clinical-genomics.png
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename to publish.
 # Deliberately written from public facts about the role; add or remove specifics
 # according to what Franklin/QIAGEN is comfortable sharing.

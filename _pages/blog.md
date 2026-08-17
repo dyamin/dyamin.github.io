@@ -5,7 +5,9 @@ title: Blog
 # PUBLISH CHECKLIST — when the first post moves from _drafts/ to _posts/:
 #   1. flip `nav: false` to `nav: true` below (slot 2 in the navbar is already reserved);
 #   2. set `latest_posts.enabled: true` in _pages/about.md;
-#   3. add a news item in _news/ and refresh the homepage "Now" strip.
+#   3. add a news item in _news/ and refresh the homepage "Now" strip;
+#   4. each post keeps its own OG card (`og_image` front matter → assets/img/og/<slug>.png);
+#      if the title changed during review, update scripts/generate-og-cards.mjs and rerun it.
 nav: false
 nav_order: 2
 pagination:

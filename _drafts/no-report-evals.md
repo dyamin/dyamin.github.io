@@ -4,6 +4,7 @@ title: "No-report evals: testing agent memory without asking the model"
 description: "A practical eval pattern borrowed from cognitive science — measure what an agent remembers by how it behaves, never by what it claims."
 tags: [llm, agents, memory, evals]
 categories: [ai-engineering]
+og_image: /assets/img/og/no-report-evals.png
 # DRAFT — review, edit to taste, then move to _posts/ with a dated filename to publish.
 # Companion piece to the "brains remember" essay; this one is the practical how-to.
 # After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
