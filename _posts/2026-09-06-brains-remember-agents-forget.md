@@ -5,19 +5,13 @@ description: "What eye-tracking research on human episodic memory taught me abou
 tags: [llm, agents, memory, neuroscience]
 categories: [ai-engineering]
 og_image: /assets/img/og/brains-remember-agents-forget.png
-# DRAFT — review, edit to taste, then move to _posts/ with a dated filename
-# (e.g. _posts/2026-09-01-brains-remember-agents-forget.md) to publish.
-# After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
-# homepage latest_posts, news item). LinkedIn/HN copy: docs/DISTRIBUTION_KIT.md.
 ---
 
-**Draft for Daniel's review — edit voice and specifics before publishing.**
+During my MSc at Tel Aviv University I spent two and a half years on a strange problem: how do you detect a memory the person can't tell you about?
 
-In my MSc at Tel Aviv University I spent two and a half years on a strange problem: how do you detect a memory the person can't tell you about?
+Our answer — published in [_Communications Psychology_](https://www.nature.com/articles/s44271-025-00305-7) (Nature Portfolio) — was to read it from the eyes. When people re-watch a movie clip, their gaze drifts toward the location of a salient event _seconds before it appears_, but only if they remember it. We called the paradigm [MEGA](https://github.com/dyamin/MEGA) (Memory Episode Gaze Anticipation), and a classifier over single-trial gaze features could tell whether a given viewing carried a memory of the event. The eeriest result: anticipatory gaze sometimes revealed memory **even when the person said they didn't remember**.
 
-Our answer — published in [_Communications Psychology_](https://www.nature.com/articles/s44271-025-00305-7) — was to read it from the eyes. When people re-watch a movie clip, their gaze drifts toward the location of a salient event _seconds before it appears_, but only if they remember it. We called the paradigm MEGA (Memory Episode Gaze Anticipation), and a classifier over single-trial gaze features could tell whether a given viewing carried a memory of the event. The eeriest result: anticipatory gaze sometimes revealed memory **even when the person said they didn't remember**.
-
-Today I build LLM applications and agentic workflows in clinical genomics. And I keep noticing that the questions my day job asks about agent memory are the questions my research asked about human memory.
+Today I build LLM applications and agentic workflows for clinical genomics at Franklin by QIAGEN. And I keep noticing that the questions my day job asks about agent memory are the questions my research asked about human memory.
 
 ## 1. Recall is not recognition, and both are not reports
 

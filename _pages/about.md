@@ -21,7 +21,7 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
@@ -42,8 +42,8 @@ Before that I spent a decade shipping production systems — DeFi risk platforms
      (whenever something ships — see docs/MARKETING_PLAN.md). Keep it to one truthful sentence. -->
 <div class="now-strip">
   <span class="now-label"><span class="now-dot" aria-hidden="true"></span>Now</span>
-  <span class="now-text">Building <strong>memprobe</strong>, an open eval harness that tests agent memory by behavior rather than self-report — and writing up what human-memory research teaches about agent memory.</span>
-  <span class="now-stamp">updated Aug 2026</span>
+  <span class="now-text">Just published <a href="/blog/2026/brains-remember-agents-forget/">an essay on what measuring human memory taught me about building memory for AI agents</a> — and building <strong>memprobe</strong>, an open eval harness that tests agent memory by behavior rather than self-report.</span>
+  <span class="now-stamp">updated Sep 2026</span>
 </div>
 
 <div class="proof-strip">

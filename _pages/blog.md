@@ -2,13 +2,14 @@
 layout: default
 permalink: /blog/
 title: Blog
-# PUBLISH CHECKLIST — when the first post moves from _drafts/ to _posts/:
-#   1. flip `nav: false` to `nav: true` below (slot 2 in the navbar is already reserved);
-#   2. set `latest_posts.enabled: true` in _pages/about.md;
+# PUBLISH CHECKLIST — when a post moves from _drafts/ to _posts/:
+#   1. `nav: true` and `latest_posts.enabled: true` (_pages/about.md) are already on since the first post shipped (Sep 2026);
+#   2. delete the draft-warning lines from the post's front matter and body;
 #   3. add a news item in _news/ and refresh the homepage "Now" strip;
 #   4. each post keeps its own OG card (`og_image` front matter → assets/img/og/<slug>.png);
-#      if the title changed during review, update scripts/generate-og-cards.mjs and rerun it.
-nav: false
+#      if the title changed during review, update scripts/generate-og-cards.mjs and rerun it;
+#   5. LinkedIn summary within 24h — copy in docs/DISTRIBUTION_KIT.md.
+nav: true
 nav_order: 2
 pagination:
   enabled: true
