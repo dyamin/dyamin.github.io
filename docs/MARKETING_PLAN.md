@@ -76,14 +76,15 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 - **Search baseline (Sep 6 2026, web search, US):** "Daniel Yamin AI engineer" → yamin.dev at positions 7–8 (`/projects/`, `/`), behind four Stanford Daniel Yamins results and your LinkedIn (2nd); the `/projects/` hit is indexed under **http://** (HTTPS enforcement matters). Bare "Daniel Yamin" → yamin.dev absent from the top 10; your Scholar profile is 5th, LinkedIn 9th, and the rest is Stanford Yamins, a CMU PhD student, a football agent, and an Instagram account. Re-run after Search Console + the profile README land; target is top 3 for both queries.
 - **Enforce HTTPS done by Daniel the same day** (#1): `http://yamin.dev/*` → 301 https, verified.
 - **GitHub profile (#3) and MEGA sidebars (#11) finished by Daniel the same day:** `dyamin/dyamin` README live (pushed from the agent session once the repo existed), pins/bio/website set, About + topics on both MEGA repos.
-- Still Daniel-only from the monthly audit: Search Console (#2), analytics ID (#5), memprobe repo (#16), and the LinkedIn summary for the essay (#10, copy in `docs/DISTRIBUTION_KIT.md` §2) within 24h of the deploy.
+- **Search Console verified (#2)** the same day via the HTML-tag method; sitemap submitted.
+- Still Daniel-only from the monthly audit: analytics ID (#5), memprobe repo (#16), and the LinkedIn summary for the essay (#10, copy in `docs/DISTRIBUTION_KIT.md` §2) within 24h of the deploy.
 
 ## Your action list (things only you can do)
 
 **This week (~2 hours total)**
 
 1. **GitHub Pages settings:** ~~confirm custom domain = yamin.dev and tick **Enforce HTTPS**~~ — _done Sep 6 2026_: `http://yamin.dev/*` now 301s to https (verified with curl).
-2. **Google Search Console:** verify yamin.dev (paste the meta ID into `google_site_verification` in `_config.yml`), submit the sitemap, and use _URL inspection → Request indexing_ for `/`, `/cv/`, `/projects/`.
+2. **Google Search Console:** _verified Sep 6 2026_ (HTML-tag method; `google_site_verification` + `enable_google_verification: true` in `_config.yml`). Sitemap `sitemap.xml` submitted; indexing requested for `/`, both essays, `/cv/`, `/projects/`. Check weekly: Performance → queries "daniel yamin" / "daniel yamin ai engineer"; Pages → make sure only https URLs are indexed.
 3. **GitHub profile:** _done Sep 6 2026_ — `dyamin/dyamin` created, README (from `docs/github-profile-README.md` plus a "Latest writing" block with both essays) pushed, repos pinned, bio + website set.
 4. **LinkedIn back-links:** set website field → yamin.dev; add the Nature paper + Times of Israel piece + site to _Featured_ (cards will now unfurl with the new og:image).
 5. **Analytics:** create a GA4 property (or Cloudflare/Pirsch if you prefer privacy-light) and drop the ID into `analytics:` in `_config.yml` — without it the plan can't be measured.
