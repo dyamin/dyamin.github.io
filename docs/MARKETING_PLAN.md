@@ -83,7 +83,7 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 
 1. **GitHub Pages settings:** ~~confirm custom domain = yamin.dev and tick **Enforce HTTPS**~~ — _done Sep 6 2026_: `http://yamin.dev/*` now 301s to https (verified with curl).
 2. **Google Search Console:** verify yamin.dev (paste the meta ID into `google_site_verification` in `_config.yml`), submit the sitemap, and use _URL inspection → Request indexing_ for `/`, `/cv/`, `/projects/`.
-3. **GitHub profile:** create `dyamin/dyamin` with the ready-made README in `docs/github-profile-README.md`; pin MEGA, MEGA-Experiment, dyamin.github.io; add bio + yamin.dev link; enable "include private contributions."
+3. **GitHub profile:** ~~create `dyamin/dyamin` with the ready-made README~~ — _README live Sep 6 2026_ (Daniel created the repo; the README from `docs/github-profile-README.md` plus a "Latest writing" block with both essays was pushed). Remaining on github.com/dyamin: pin MEGA, MEGA-Experiment, dyamin.github.io; set bio + website (yamin.dev); enable "include private contributions."
 4. **LinkedIn back-links:** set website field → yamin.dev; add the Nature paper + Times of Israel piece + site to _Featured_ (cards will now unfurl with the new og:image).
 5. **Analytics:** create a GA4 property (or Cloudflare/Pirsch if you prefer privacy-light) and drop the ID into `analytics:` in `_config.yml` — without it the plan can't be measured.
 6. **Answer-engine audit (5 min, then quarterly):** ask ChatGPT, Claude, and Perplexity "Daniel Yamin AI engineer"; save the answers as the baseline. The schema/entity work should visibly change them — this is the modern "google yourself" metric.
