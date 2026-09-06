@@ -1,0 +1,234 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> I measured memories people couldn't report. Now I build memory for AI agents. | Daniel Yamin </title> <meta name="author" content="Daniel Yamin"> <meta name="description" content="What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems."> <meta name="keywords" content="daniel yamin, ai engineer, data scientist, llm, large language models, agentic systems, machine learning, computational neuroscience, eye tracking, clinical genomics, tel aviv"> <meta property="og:site_name" content="Daniel Yamin"> <meta property="og:type" content="article"> <meta property="og:title" content="Daniel Yamin | I measured memories people couldn't report. Now I build memory for AI agents."> <meta property="og:url" content="https://yamin.dev/blog/2026/brains-remember-agents-forget/"> <meta property="og:description" content="What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems."> <meta property="og:image" content="https://yamin.dev/assets/img/og/brains-remember-agents-forget.png"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:title" content="I measured memories people couldn't report. Now I build memory for AI agents."> <meta name="twitter:description" content="What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems."> <meta name="twitter:image" content="https://yamin.dev/assets/img/og/brains-remember-agents-forget.png"> <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://yamin.dev/#person",
+          "name": "Daniel Yamin",
+          "url": "https://yamin.dev/",
+          "image": "https://yamin.dev/assets/img/prof_pic.jpg",
+          "jobTitle": "Senior AI Engineer & Data Scientist",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Franklin by QIAGEN",
+            "url": "https://franklin.genoox.com/"
+          },
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Tel Aviv University" },
+            { "@type": "CollegeOrUniversity", "name": "The Open University of Israel" }
+          ],
+          "knowsAbout": [
+            "large language models",
+            "AI agents and agentic workflows",
+            "AI agent memory",
+            "LLM evaluation",
+            "retrieval-augmented generation",
+            "natural language processing",
+            "machine learning",
+            "clinical genomics",
+            "computational neuroscience",
+            "episodic memory",
+            "eye tracking"
+          ],
+          "sameAs": ["https://www.linkedin.com/in/daniel-yamin","https://github.com/dyamin","https://scholar.google.com/citations?user=RnTYp-oAAAAJ","https://osf.io/jgr7m/"]
+        },
+        
+          {
+            "@type": "BlogPosting",
+            "headline": "I measured memories people couldn't report. Now I build memory for AI agents.",
+            "description": "What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems.",
+            "url": "https://yamin.dev/blog/2026/brains-remember-agents-forget/",
+            "mainEntityOfPage": "https://yamin.dev/blog/2026/brains-remember-agents-forget/",
+            "datePublished": "2026-09-06T00:00:00+00:00",
+            "author": { "@id": "https://yamin.dev/#person" },
+            "publisher": { "@id": "https://yamin.dev/#person" }
+          }
+        
+      ]
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?v=719e60ef5a6f306aaa117cf56eade0c2"> <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png?v=b04172aa05f70e56173edce25525faaa"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://yamin.dev/blog/2026/brains-remember-agents-forget/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Daniel</span> Yamin </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">Blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/media/">Talks &amp; Media </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">Repositories </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">I measured memories people couldn't report. Now I build memory for AI agents.</h1> <p class="post-meta"> Created on September 06, 2026 </p> <p class="post-tags"> <a href="/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/blog/tag/llm"> <i class="fa-solid fa-hashtag fa-sm"></i> llm</a>   <a href="/blog/tag/agents"> <i class="fa-solid fa-hashtag fa-sm"></i> agents</a>   <a href="/blog/tag/memory"> <i class="fa-solid fa-hashtag fa-sm"></i> memory</a>   <a href="/blog/tag/neuroscience"> <i class="fa-solid fa-hashtag fa-sm"></i> neuroscience</a>   ·   <a href="/blog/category/ai-engineering"> <i class="fa-solid fa-tag fa-sm"></i> ai-engineering</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>During my MSc at Tel Aviv University I spent two and a half years on a strange problem: how do you detect a memory the person can’t tell you about?</p> <p>Our answer — published in <a href="https://www.nature.com/articles/s44271-025-00305-7" rel="external nofollow noopener" target="_blank"><em>Communications Psychology</em></a> (Nature Portfolio) — was to read it from the eyes. When people re-watch a movie clip, their gaze drifts toward the location of a salient event <em>seconds before it appears</em>, but only if they remember it. We called the paradigm <a href="https://github.com/dyamin/MEGA" rel="external nofollow noopener" target="_blank">MEGA</a> (Memory Episode Gaze Anticipation), and a classifier over single-trial gaze features could tell whether a given viewing carried a memory of the event. The eeriest result: anticipatory gaze sometimes revealed memory <strong>even when the person said they didn’t remember</strong>.</p> <p>Today I build LLM applications and agentic workflows for clinical genomics at Franklin by QIAGEN. And I keep noticing that the questions my day job asks about agent memory are the questions my research asked about human memory.</p> <h2 id="1-recall-is-not-recognition-and-both-are-not-reports">1. Recall is not recognition, and both are not reports</h2> <p>Cognitive science has spent a century carving memory into kinds — recall vs. recognition, episodic vs. semantic vs. procedural — because each kind fails differently and is measured differently.</p> <p>Agent-memory design keeps re-discovering this taxonomy. A vector store over past conversations is <em>recognition</em> memory: it can tell “have I seen something like this?” but not “what happened last Tuesday, in order?” An append-only event log is <em>episodic</em>; distilled facts in a system prompt are <em>semantic</em>; a fine-tune is closer to <em>procedural</em>. When an agent “forgets,” the first diagnostic question should be the neuropsychologist’s: <strong>which memory system failed?</strong> Retrieval? Encoding? Consolidation? Each has a different fix — better embeddings won’t help if the information was never written down.</p> <h2 id="2-the-report-problem-your-agents-self-assessment-is-a-verbal-report">2. The report problem: your agent’s self-assessment is a verbal report</h2> <p>The reason MEGA matters clinically is that verbal reports are unreliable — patients with brain injuries, infants, and sometimes ordinary adults can’t accurately report what they remember.</p> <p>LLMs have exactly this pathology. Ask a model whether it remembers something from its context and you get a <em>verbal report</em> — fluent, confident, and only loosely coupled to whether the information actually influenced its behavior. The lesson from no-report paradigms transfers directly: <strong>don’t evaluate memory by asking; evaluate it by observing behavior</strong>. In our lab that meant gaze position over time. In an agent harness it means behavioral probes: does the agent’s <em>choice</em> change when the remembered fact should change it? That’s an eval you can run per release — a memory eval suite that never asks the model “do you remember?”</p> <h2 id="3-anticipation-is-the-signature-of-memory">3. Anticipation is the signature of memory</h2> <p>The deepest idea in MEGA is that memory shows up as <em>anticipation</em>: the eyes go where the event will be. Memory isn’t a lookup table — it’s a predictive resource that shapes behavior before the moment of need.</p> <p>Good agent memory should earn its storage the same way. The test of a memory system isn’t retrieval benchmarks; it’s whether the agent <em>acts earlier and better</em> because of what it knows — pre-fetching the right context, flagging the anomaly before the user does, not re-asking the question it asked last week. If a memory never changes downstream behavior, it’s not memory; it’s a log.</p> <h2 id="what-id-steal-from-the-lab-as-an-engineering-checklist">What I’d steal from the lab, as an engineering checklist</h2> <ol> <li> <strong>Name the memory system</strong> you’re building (episodic log, semantic store, procedural skill) and evaluate each one separately.</li> <li> <strong>No-report evals</strong>: measure memory by behavioral change, not by the model’s claims about itself.</li> <li> <strong>Score anticipation</strong>: reward the system for using memory <em>before</em> being asked.</li> <li> <strong>Expect (and design for) forgetting</strong>: consolidation — deciding what <em>not</em> to keep — is a feature the brain spends a third of your life on.</li> </ol> <p>I studied how brains remember. The more agents I ship, the more convinced I am that the field’s memory problems were solved once already — in wetware — and that the eval methods cognitive science invented for subjects who can’t be trusted to self-report are exactly the right tools for models that can’t either.</p> <p><em>— Daniel</em></p> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Daniel Yamin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "AI systems, production engineering, and published research — what I have built and where.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Peer-reviewed research on measuring human memory from eye movements.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Senior AI Engineer &amp; Data Scientist — LLMs &amp; agentic systems on top of a decade of production engineering and a computational-neuroscience MSc. Download the PDF or browse below.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-talks-amp-media",
+          title: "Talks &amp; Media",
+          description: "Press, TV, and podcast coverage of the MEGA memory research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/media/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "Open-source work — the MEGA research pipeline, its experiment suite, and this site.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "post-i-measured-memories-people-couldn-39-t-report-now-i-build-memory-for-ai-agents",
+        
+          title: "I measured memories people couldn&#39;t report. Now I build memory for AI agents....",
+        
+        description: "What eye-tracking research on human episodic memory taught me about building — and evaluating — memory for agentic systems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/brains-remember-agents-forget/";
+          
+        },
+      },{id: "news-seeing-the-future-anticipatory-eye-gaze-as-a-marker-of-memory-the-preprint-of-our-no-report-memory-paradigm-is-up-on-biorxiv",
+          title: '“Seeing the Future: Anticipatory Eye Gaze as a Marker of Memory” — the...',
+          description: "",
+          section: "News",},{id: "news-qiagen-announced-the-acquisition-of-genoox-where-i-lead-llm-and-agentic-ai-initiatives-the-franklin-clinical-genomics-platform-joins-the-qiagen-digital-insights-portfolio",
+          title: 'QIAGEN announced the acquisition of Genoox, where I lead LLM and agentic-AI initiatives...',
+          description: "",
+          section: "News",},{id: "news-our-paper-anticipatory-eye-gaze-as-a-marker-of-memory-is-out-in-communications-psychology-measuring-episodic-memory-from-gaze-alone-no-verbal-report-needed-covered-by-channel-13-news-the-times-of-israel-and-neuroscience-news",
+          title: 'Our paper “Anticipatory eye gaze as a marker of memory” is out in...',
+          description: "",
+          section: "News",},{id: "news-first-post-on-the-blog-what-eye-tracking-research-on-human-episodic-memory-taught-me-about-building-and-evaluating-memory-for-agentic-systems-memory-taxonomies-as-debugging-tools-no-report-evals-and-anticipation-as-the-true-signature-of-memory",
+          title: 'First post on the blog: what eye-tracking research on human episodic memory taught...',
+          description: "",
+          section: "News",},{id: "projects-llm-amp-agentic-systems-for-clinical-genomics",
+          title: 'LLM &amp;amp; agentic systems for clinical genomics',
+          description: "Leading AI development at Franklin by QIAGEN — LLM applications, agentic workflows, and literature-scale NLP for genomic medicine.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ai-clinical-genomics/";
+            },},{id: "projects-real-time-ddos-anomaly-detection",
+          title: 'Real-time DDoS anomaly detection',
+          description: "Six years on DDoS Secure at Allot — network behavior anomaly detection and mitigation on live traffic.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ddos-detection/";
+            },},{id: "projects-real-time-defi-risk-platform",
+          title: 'Real-time DeFi risk platform',
+          description: "Low-latency risk systems at Chaos Labs, trusted by protocols like Aave, Uniswap, and Osmosis to protect billions in assets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/defi-risk/";
+            },},{id: "projects-iot-security-at-global-scale",
+          title: 'IoT security at global scale',
+          description: "Azure Defender for IoT at Microsoft — including the CVE-matching Vulnerability Assessment feature.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iot-security/";
+            },},{id: "projects-mega-reading-memory-from-the-eyes",
+          title: 'MEGA — reading memory from the eyes',
+          description: "A no-report paradigm that quantifies episodic memory from anticipatory eye gaze, published in Nature Communications Psychology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mega/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%64%68%79%61%6D%69%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/daniel-yamin", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/dyamin", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=RnTYp-oAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-osf',
+        title: 'Open Science Framework',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://osf.io/jgr7m/", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
