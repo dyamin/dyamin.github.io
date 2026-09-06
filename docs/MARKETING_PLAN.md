@@ -74,13 +74,14 @@ Your LinkedIn already says **"Senior AI Engineer & Data Scientist | LLMs & Agent
 - **IndexNow wired (Bing → DuckDuckGo, ChatGPT search, Yandex):** key file `bd81018d71d1d9127d8027714ea125c1.txt` at the repo root (served at the site root; the key is public by design). Homepage, blog, essay, CV, projects, publications, and repositories URLs submitted on Sep 6 2026. Google ignores IndexNow, so Search Console (#2) is still the only route to Google.
 - **Essay #2 published the same day on Daniel's explicit call** (`_posts/2026-09-06-llm-agents-clinical-genomics.md`, `/blog/2026/llm-agents-clinical-genomics/`): draft warnings removed, employer named and linked, otherwise as drafted — it is written from public facts about the role and carries no numbers or product internals. The day's news item and Now strip now cover both essays. Distribution stays staggered: LinkedIn for #1 now, #2 one to two weeks later. One draft (`no-report-evals`) remains as runway; it is the memprobe companion and should ship with the repo.
 - **Search baseline (Sep 6 2026, web search, US):** "Daniel Yamin AI engineer" → yamin.dev at positions 7–8 (`/projects/`, `/`), behind four Stanford Daniel Yamins results and your LinkedIn (2nd); the `/projects/` hit is indexed under **http://** (HTTPS enforcement matters). Bare "Daniel Yamin" → yamin.dev absent from the top 10; your Scholar profile is 5th, LinkedIn 9th, and the rest is Stanford Yamins, a CMU PhD student, a football agent, and an Instagram account. Re-run after Search Console + the profile README land; target is top 3 for both queries.
-- Still Daniel-only from the monthly audit: Enforce HTTPS (#1), Search Console (#2), GitHub profile README (#3), analytics ID (#5), memprobe repo (#16), and the LinkedIn summary for the essay (#10, copy in `docs/DISTRIBUTION_KIT.md` §2) within 24h of the deploy.
+- **Enforce HTTPS done by Daniel the same day** (#1): `http://yamin.dev/*` → 301 https, verified.
+- Still Daniel-only from the monthly audit: Search Console (#2), GitHub profile README (#3), analytics ID (#5), memprobe repo (#16), and the LinkedIn summary for the essay (#10, copy in `docs/DISTRIBUTION_KIT.md` §2) within 24h of the deploy.
 
 ## Your action list (things only you can do)
 
 **This week (~2 hours total)**
 
-1. **GitHub Pages settings:** confirm custom domain = yamin.dev and tick **Enforce HTTPS** (http://yamin.dev currently serves unredirected and is what Google indexed).
+1. **GitHub Pages settings:** ~~confirm custom domain = yamin.dev and tick **Enforce HTTPS**~~ — _done Sep 6 2026_: `http://yamin.dev/*` now 301s to https (verified with curl).
 2. **Google Search Console:** verify yamin.dev (paste the meta ID into `google_site_verification` in `_config.yml`), submit the sitemap, and use _URL inspection → Request indexing_ for `/`, `/cv/`, `/projects/`.
 3. **GitHub profile:** create `dyamin/dyamin` with the ready-made README in `docs/github-profile-README.md`; pin MEGA, MEGA-Experiment, dyamin.github.io; add bio + yamin.dev link; enable "include private contributions."
 4. **LinkedIn back-links:** set website field → yamin.dev; add the Nature paper + Times of Israel piece + site to _Featured_ (cards will now unfurl with the new og:image).
