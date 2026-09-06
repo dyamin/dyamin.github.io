@@ -5,16 +5,9 @@ description: "What building LLM applications and agentic workflows for clinical 
 tags: [llm, agents, evals, genomics]
 categories: [ai-engineering]
 og_image: /assets/img/og/llm-agents-clinical-genomics.png
-# DRAFT — review, edit to taste, then move to _posts/ with a dated filename to publish.
-# Deliberately written from public facts about the role; add or remove specifics
-# according to what Franklin/QIAGEN is comfortable sharing.
-# After moving: follow the PUBLISH CHECKLIST in _pages/blog.md (enable blog nav,
-# homepage latest_posts, news item). LinkedIn/HN copy: docs/DISTRIBUTION_KIT.md.
 ---
 
-**Draft for Daniel's review — edit voice and specifics before publishing.**
-
-I build LLM applications and agentic workflows for clinical genomics. It is a wonderful and unforgiving place to do AI engineering: the source material is dense scientific prose, the ontology is enormous, and a hallucination isn't a bad demo — it's a wrong signal about a patient's variant. Here is what shipping in that environment has taught me, none of which I learned from a framework tutorial.
+I build LLM applications and agentic workflows for clinical genomics at [Franklin by QIAGEN](https://franklin.genoox.com/). It is a wonderful and unforgiving place to do AI engineering: the source material is dense scientific prose, the ontology is enormous, and a hallucination isn't a bad demo — it's a wrong signal about a patient's variant. Here is what shipping in that environment has taught me, none of which I learned from a framework tutorial.
 
 ## 1. The eval suite is the product
 

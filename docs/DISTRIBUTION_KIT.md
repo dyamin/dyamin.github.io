@@ -36,7 +36,9 @@ _Published Sep 6 2026 — the link above is live and copy-paste ready. Run it th
 >
 > Shipping LLM applications in that environment taught me lessons no framework tutorial covers: the eval suite is the product, structure beats eloquence, agents earn their complexity only at the seams, and the abstention path ("I don't know") deserves as much design as the happy path.
 >
-> [link with ?utm_source=linkedin&utm_medium=social&utm_campaign=essay-2]
+> https://yamin.dev/blog/2026/llm-agents-clinical-genomics/?utm_source=linkedin&utm_medium=social&utm_campaign=essay-2
+
+_Published Sep 6 2026 (same day as essay #1). Space the LinkedIn posts out: essay #1 now, essay #2 one to two weeks later — the site can carry both, the feed shouldn't._
 
 ## 4. Essay #3 ("no-report evals") — LinkedIn summary
 
