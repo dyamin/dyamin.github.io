@@ -24,9 +24,11 @@ Ready-to-edit copy for the distribution loop (site → LinkedIn → HN). Everyth
 >
 > So I wrote up what agent-memory engineering can steal from cognitive science: memory taxonomies as debugging tools, no-report evals, and anticipation as the true signature of memory.
 >
-> [link with ?utm_source=linkedin&utm_medium=social&utm_campaign=essay-1]
+> https://yamin.dev/blog/2026/brains-remember-agents-forget/?utm_source=linkedin&utm_medium=social&utm_campaign=essay-1
 
-**HN submission** (only if you feel the essay is genuinely strong; plain first-person title): `I measured memories people couldn't report. Now I build memory for AI agents`
+_Published Sep 6 2026 — the link above is live and copy-paste ready. Run it through LinkedIn's Post Inspector once first so the essay's own OG card is cached._
+
+**HN submission** (only if you feel the essay is genuinely strong; plain first-person title): `I measured memories people couldn't report. Now I build memory for AI agents` → `https://yamin.dev/blog/2026/brains-remember-agents-forget/`
 
 ## 3. Essay #2 ("lessons from clinical genomics") — LinkedIn summary
 
@@ -48,30 +50,11 @@ Ready-to-edit copy for the distribution loop (site → LinkedIn → HN). Everyth
 
 ## Publishing a post (mechanics)
 
-1. Edit the draft in `_drafts/`, then move it to `_posts/` with a dated filename, e.g. `_posts/2026-09-01-brains-remember-agents-forget.md`, and delete the draft-warning lines.
-2. Re-enable the blog page — create `_pages/blog.md`:
-
-   ```markdown
-   ---
-   layout: default
-   permalink: /blog/
-   title: Writing
-   nav: true
-   nav_order: 3
-   pagination:
-     enabled: true
-     collection: posts
-     permalink: /page/:num/
-     per_page: 10
-     sort_field: date
-     sort_reverse: true
-   ---
-   ```
-
-   (Then shift `nav_order` of the later pages by one, or keep Writing at another position you prefer.)
-
+1. Edit the draft in `_drafts/`, then move it to `_posts/` with a dated filename, e.g. `_posts/2026-10-01-llm-agents-clinical-genomics.md`, and delete the draft-warning lines.
+2. The blog page and homepage "latest posts" are already switched on (since essay #1, Sep 2026) — follow the PUBLISH CHECKLIST in `_pages/blog.md`'s front matter: news item, Now-strip refresh, OG card check.
 3. Push to `master` → live in ~2 minutes. Verify the post's OG card with LinkedIn's Post Inspector before sharing.
 4. LinkedIn summary within 24h (copy above); HN only for the strongest pieces, morning US time, no editorializing in the title.
+5. Submit the new URL to IndexNow (Bing/DuckDuckGo/ChatGPT search) — the site's key file lives at the repo root (`<key>.txt`); one `POST https://api.indexnow.org/indexnow` with `host`, `key`, `keyLocation`, `urlList`. Google only takes Search Console submissions.
 
 ## Cadence
 
