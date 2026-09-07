@@ -23,6 +23,10 @@ When people re-watch a movie clip, their gaze starts drifting toward the locatio
 
 ## The machine-learning core
 
+<div class="photo-inline">
+  {% include figure.liquid path="assets/img/mega/lab-eeg.jpg" class="img-fluid" avoid_scaling=true alt="Daniel Yamin adjusting equipment beside a participant wearing an EEG electrode cap in the lab" caption="In the lab: running an EEG and eye-tracking session." %}
+</div>
+
 The paradigm is as much an ML problem as a neuroscience one: raw eye-tracking streams go through signal processing and feature extraction, and a classifier identifies — from **single-trial gaze features** — whether a given viewing reflects memory for the event.
 
 ## Why it matters

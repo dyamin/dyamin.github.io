@@ -110,7 +110,12 @@ Building agentic systems raises the engineering version of the same question: _w
   <div class="xp-item"><span class="xp-years">2014–20</span><span class="xp-role"><strong>Allot</strong> — Software &amp; Algorithm Engineer. DDoS Secure: real-time network behavior anomaly detection.</span></div>
 </div>
 
-**Education:** MSc Computational Neuroscience, Tel Aviv University (GPA 98) · BSc Computer Science & Cognitive Science, Open University of Israel (GPA 92, honors track scholarship)
+<div class="edu-row">
+  <div class="photo-inline">
+    {% include figure.liquid path="assets/img/mega/graduation.jpg" class="img-fluid" avoid_scaling=true alt="Daniel Yamin in a graduation gown receiving his MSc certificate on stage at Tel Aviv University" caption="MSc graduation, Tel Aviv University" %}
+  </div>
+  <p><strong>Education:</strong> MSc Computational Neuroscience, Tel Aviv University (GPA 98) · BSc Computer Science &amp; Cognitive Science, Open University of Israel (GPA 92, honors track scholarship)</p>
+</div>
 
 ---
 

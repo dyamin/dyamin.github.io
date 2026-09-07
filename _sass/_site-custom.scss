@@ -191,6 +191,55 @@
   }
 }
 
+// Small native-resolution thumbnails (e.g. 160px LinkedIn exports) shown beside text
+.photo-inline {
+  float: right;
+  width: 160px;
+  margin: 0.2rem 0 0.75rem 1.25rem;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 160px;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  figcaption.caption {
+    font-size: 0.75rem;
+    line-height: 1.35;
+    color: var(--global-text-color-light);
+    margin-top: 0.35rem;
+    text-align: left;
+  }
+
+  @media (max-width: 576px) {
+    float: none;
+    margin: 0.75rem auto 1rem;
+  }
+}
+
+.edu-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1rem 0;
+
+  .photo-inline {
+    float: none;
+    flex: 0 0 160px;
+    margin: 0;
+  }
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 // --- Small polish ----------------------------------------------------------------
 
 .profile-location {
