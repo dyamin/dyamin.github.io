@@ -12,6 +12,9 @@ Our research on measuring memory through anticipatory eye gaze — published in 
 ## TV & radio
 
 <div class="media-card">
+  <div class="photo-inline">
+    {% include figure.liquid path="assets/img/mega/lab-eeg.jpg" class="img-fluid" avoid_scaling=true alt="Still from the Channel 13 News feature: Daniel Yamin beside a participant wearing an EEG electrode cap" %}
+  </div>
   <h3>Channel 13 News (Israel) · 2025</h3>
   <p class="media-kind">TV feature</p>
   <p>Featured segment on our research measuring memory through eye movements — how anticipatory gaze can assess episodic memory without verbal reports, and what that means for patients who cannot speak.</p>
@@ -40,9 +43,9 @@ Our research on measuring memory through anticipatory eye gaze — published in 
 ## Talks
 
 <div class="photo-grid">
-  {% include figure.liquid path="assets/img/mega/talk-tau-mega-procedure.jpg" class="img-fluid" alt="Daniel Yamin presenting the MEGA paradigm procedure in a Tel Aviv University lecture hall" caption="The MEGA paradigm, Tel Aviv University — how anticipatory gaze reveals memory without asking." %}
-  {% include figure.liquid path="assets/img/mega/talk-model-2022-a.jpg" class="img-fluid" alt="Daniel Yamin at the front of a lecture hall presenting a slide titled 'Model V1 — Coin flipping'" caption="Computational modeling of behavior — from a coin-flipping baseline model upward, 2022." %}
-  {% include figure.liquid path="assets/img/mega/talk-model-2022-b.jpg" class="img-fluid" alt="Daniel Yamin presenting bar-chart results of a behavioral model to a seated audience" caption="Same talk: model fits against the behavioral data." %}
+  {% include figure.liquid path="assets/img/mega/talk-tau-mega-procedure.jpg" class="img-fluid" alt="Daniel Yamin presenting the MEGA paradigm procedure in a Tel Aviv University lecture hall" caption="The MEGA paradigm, Tel Aviv University, January 2024 — how anticipatory gaze reveals memory without asking." %}
+  {% include figure.liquid path="assets/img/mega/talk-model-2022-a.jpg" class="img-fluid" alt="Daniel Yamin at the front of a lecture hall presenting a slide titled 'Model V1 — Coin flipping'" caption="Presentation in France, September 2022 — computational modeling of behavior, from a coin-flipping baseline model upward." %}
+  {% include figure.liquid path="assets/img/mega/talk-model-2022-b.jpg" class="img-fluid" alt="Daniel Yamin presenting bar-chart results of a behavioral model to a seated audience" caption="Same talk, France, September 2022: model fits against the behavioral data." %}
 </div>
 
 ## About the research

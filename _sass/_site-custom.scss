@@ -135,6 +135,7 @@
   padding: 1.1rem 1.25rem;
   margin: 1rem 0;
   background: var(--global-card-bg-color);
+  display: flow-root; // contain a floated .photo-inline thumbnail
 
   h3 {
     font-size: 1.05rem;
