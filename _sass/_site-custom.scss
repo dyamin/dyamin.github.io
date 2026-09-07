@@ -157,6 +157,40 @@
   }
 }
 
+// --- Photo grid (project + talks pages) -------------------------------------------
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem 1.25rem;
+  align-items: start;
+  margin: 1.25rem 0 1.5rem;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-card-bg-color);
+  }
+
+  figcaption.caption {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+    margin-top: 0.45rem;
+    text-align: left;
+  }
+
+  &.photo-grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
 // --- Small polish ----------------------------------------------------------------
 
 .profile-location {

@@ -37,6 +37,14 @@ Our research on measuring memory through anticipatory eye gaze — published in 
 - **Tel Aviv University** · 2025 — [Measuring Memory Through Eye Movements](https://english.tau.ac.il/research/memory-through-eye-movements)
 - **Science News Today** · 2025 — [Scientists Uncover How Our Eyes Reveal Memories Without a Single Word](https://www.sciencenewstoday.org/scientists-uncover-how-our-eyes-reveal-memories-without-a-single-word)
 
+## Talks
+
+<div class="photo-grid">
+  {% include figure.liquid path="assets/img/mega/talk-tau-mega-procedure.jpg" class="img-fluid" alt="Daniel Yamin presenting the MEGA paradigm procedure in a Tel Aviv University lecture hall" caption="The MEGA paradigm, Tel Aviv University — how anticipatory gaze reveals memory without asking." %}
+  {% include figure.liquid path="assets/img/mega/talk-model-2022-a.jpg" class="img-fluid" alt="Daniel Yamin at the front of a lecture hall presenting a slide titled 'Model V1 — Coin flipping'" caption="Computational modeling of behavior — from a coin-flipping baseline model upward, 2022." %}
+  {% include figure.liquid path="assets/img/mega/talk-model-2022-b.jpg" class="img-fluid" alt="Daniel Yamin presenting bar-chart results of a behavioral model to a seated audience" caption="Same talk: model fits against the behavioral data." %}
+</div>
+
 ## About the research
 
 The **MEGA (Memory Episode Gaze Anticipation)** paradigm assesses memory independent of verbal report: eye-tracking features combined with machine learning quantify memory retrieval in populations with limited verbal ability — patients with brain injuries, pre-verbal infants, even animals.

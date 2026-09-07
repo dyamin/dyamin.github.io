@@ -16,6 +16,11 @@ When people re-watch a movie clip, their gaze starts drifting toward the locatio
 
 > "Even when subjects said they didn't remember, their gaze direction showed they did. This means that sometimes people remember, but can't say that they remember."
 
+<div class="photo-grid photo-grid-2">
+  {% include figure.liquid path="assets/img/mega/talk-tau-mega-procedure.jpg" class="img-fluid" alt="Daniel Yamin presenting the MEGA paradigm procedure slide — two viewings of movie clips two hours apart, then a verbal memory report — in a Tel Aviv University lecture hall" caption="Presenting the MEGA procedure at Tel Aviv University: watch the clips, wait two hours, watch again — the eyes give the memory away before the verbal report does." %}
+  {% include figure.liquid path="assets/img/mega/poster-2022.jpg" class="img-fluid" alt="Daniel Yamin pointing at gaze-anticipation figures on the poster 'Episodic memory assessment using gaze patterns during repeated viewing of naturalistic movies'" caption="Poster session, 2022 — the first public outing of the gaze-anticipation results, two years before the preprint." %}
+</div>
+
 ## The machine-learning core
 
 The paradigm is as much an ML problem as a neuroscience one: raw eye-tracking streams go through signal processing and feature extraction, and a classifier identifies — from **single-trial gaze features** — whether a given viewing reflects memory for the event.
