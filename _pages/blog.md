@@ -4,7 +4,8 @@ permalink: /blog/
 title: Blog
 # PUBLISH CHECKLIST — when a post moves from _drafts/ to _posts/:
 #   1. `nav: true` and `latest_posts.enabled: true` (_pages/about.md) are already on since the first post shipped (Sep 2026);
-#   2. delete the draft-warning lines from the post's front matter and body;
+#   2. delete the draft-warning lines from the post's front matter and body, and end the post
+#      with `{% include author-card.liquid %}` (the about-the-author box every essay carries);
 #   3. add a news item in _news/ and refresh the homepage "Now" strip;
 #   4. each post keeps its own OG card (`og_image` front matter → assets/img/og/<slug>.png);
 #      if the title changed during review, update scripts/generate-og-cards.mjs and rerun it;

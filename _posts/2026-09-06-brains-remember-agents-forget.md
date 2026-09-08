@@ -41,3 +41,5 @@ Good agent memory should earn its storage the same way. The test of a memory sys
 I studied how brains remember. The more agents I ship, the more convinced I am that the field's memory problems were solved once already — in wetware — and that the eval methods cognitive science invented for subjects who can't be trusted to self-report are exactly the right tools for models that can't either.
 
 _— Daniel_
+
+{% include author-card.liquid %}

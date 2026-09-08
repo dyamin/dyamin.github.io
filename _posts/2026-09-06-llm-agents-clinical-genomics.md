@@ -36,3 +36,5 @@ Half my role is advising teams across the organization on what's feasible, which
 Production AI in a high-stakes domain is mostly _not_ about the model. It's about the scaffolding that makes a probabilistic component behave like an engineering component: typed outputs, versioned evals, abstention paths, observability, and the organizational judgment to deploy it only where it belongs. That scaffolding is unglamorous, and it is the job.
 
 _— Daniel_
+
+{% include author-card.liquid %}
